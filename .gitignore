@@ -1,0 +1,10 @@
+Estudo_de_Garantias_v3.xlsx
+indices
+# Ignore the following files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+relatorios 

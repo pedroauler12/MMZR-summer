@@ -1,0 +1,1463 @@
+Fundo,%PL,Norm.,Ativo,Garantia,Nota
+VGIR11,0.0533947248939817,,22L1013767,AF SPE,2.0
+VGIR11,0.05146674689772261,,22E1211649,AF Terreno e SPE + CF,3.0
+VGIR11,0.04976735964524441,,23K1511855,AF SPE + Fiança,2.0
+VGIR11,0.04641746016780593,,24A1828538,AF Imóvel + Aval ,3.0
+VGIR11,0.04265336172506778,,22K1684666,AF SPE,2.0
+VGIR11,0.04132569473215535,,22D0836679,clean,0.0
+VGIR11,0.0324208836109641,,24G1972260,AF Imóvel + CF + Coobrigação + Aval,3.0
+VGIR11,0.031160231441955667,,24E1753141,AF Imóvel e Terreno + CF + Aval,3.0
+VGIR11,0.030968626516577082,,23J1928151,AF Imóvel e SPE + CF + Fiança,3.0
+VGIR11,0.029630177147827185,,21L0002653,AF Terreno,3.0
+VGIR11,0.025606892233596107,,23F1688312,AF Terreno e SPE + CF + Aval,3.0
+VGIR11,0.022182556027881974,,20J0764341,AF Terreno,3.0
+VGIR11,0.01888610522952603,,21F1076974,AF SPE,2.0
+VGIR11,0.018858585535613644,,23D1611321,AF Terreno e SPE + CF + Aval + Fiança,3.0
+VGIR11,0.01795808781075213,,22D0847835,AF SPE,2.0
+VGIR11,0.017625285774879273,,23L1958573,AF SPE + CF + Aval,2.0
+VGIR11,0.01687554592355115,,22K1377349,CF,1.0
+VGIR11,0.016404163035527834,,21E0608916,AF Terreno e SPE + CF Recebíveis + Aval Sócios,3.0
+VGIR11,0.01478577943427248,,22E1313665,AF SPE + CF + Aval,2.0
+VGIR11,0.014226105498393631,,24I1148077,AF Terreno,3.0
+VGIR11,0.01325206996623585,,23G1265217,AF Terreno e SPE + CF + Fiança,3.0
+VGIR11,0.012982237568982641,,21F1076950,AF SPE,2.0
+VGIR11,0.012818793374815386,,22B0512752,AF Terreno e SPE + Aval,3.0
+VGIR11,0.012764708304064445,,20J0764140,AF Terreno,3.0
+VGIR11,0.011461970456291794,,22L0179634,AF Terreno e SPE + CF + Fiança,3.0
+VGIR11,0.011154094134227237,,22A0788605,AF SPE,2.0
+VGIR11,0.010670720996330136,,20D0892140,AF Terreno,3.0
+VGIR11,0.008765664378732989,,22A0883092,Cessão contratos + AF SPE + Fiança,2.0
+VGIR11,0.008469778500903996,,22H1318883,AF Terreno e SPE + CF + Aval,3.0
+VGIR11,0.008434802159349027,,22D0847833,AF SPE,2.0
+VGIR11,0.007988720712909562,,24D3464295,AF Terreno e SPE + CF + Fiança,3.0
+VGIR11,0.007155250061862999,,24G1559252,AF Terreno e SPE + CF,3.0
+VGIR11,0.0071334196681027,,24I1465223,AF Imóvel,3.0
+VGIR11,0.006988746483748363,,22D0634282,AF Terreno e SPE + CF,3.0
+VGIR11,0.006852383491506144,,23F1689784,AF Terreno e SPE + CF + Fiança,3.0
+VGIR11,0.006804229509811097,,22C0927973,AF Terreno e SPE + CF,3.0
+VGIR11,0.006540374477704473,,24E1730283,AF Imóvel e Terreno + CF + Aval,3.0
+VGIR11,0.006480118823515033,,22H1319855,AF Imóvel e SPE + Aval,3.0
+VGIR11,0.006431603581414346,,24A2692084,CF,1.0
+VGIR11,0.0059086353754542595,,22J1021044,AF Terreno e SPE + CF + Fiança,3.0
+VGIR11,0.004254272364459102,,22J0123615,AF Terreno e SPE + Aval,3.0
+VGIR11,0.004095549191170204,,19B0177968,CF + Aval,2.0
+VGIR11,0.003301435522180511,,21L0729731,AF Imóvel,3.0
+VGIR11,0.003301433841882361,,21L0729728,AF Imóvel,3.0
+VGIR11,0.002827046271450644,,19E0281174,AF Imóvel,3.0
+VGIR11,0.0024880905105714893,,23L1958694,AF SPE + CF + Aval,2.0
+VGIR11,0.002172722276783468,,24E1235616,AF terreno,3.0
+VGIR11,0.0021119605217816665,,18D0698877,CF + Aval,2.0
+VGIR11,0.0019884513536333258,,22J0070436,AF Terreno e SPE + Aval,2.0
+VGIR11,0.0017779094937625368,,24H2371352,AF terreno,2.0
+VGIR11,0.0017296835202918158,,19L0909950,AF Imóvel e SPE + CF + Fiança,3.0
+VGIR11,0.0017256770477659439,,24A2191067,AF Terreno e SPE + CF + Aval,3.0
+MXRF11,0.03621981468971852,,24C1526928,"- Aval
+- 60% da Cessão Fiduciária dos Recebíveis da 1a Fase do SMI
+- 60% da AF do SMI",1.0
+MXRF11,0.03334282322516432,,24G1557250,"- AF de Imóveis;
+- AF de Quotas;
+- Fundo de Despesas e Reserva.",3.0
+MXRF11,0.025450462551088623,,23D1515316,"- AF de imóvel
+- Fiança CSN",3.0
+MXRF11,0.0238664150564805,,22C0983841,"- Fundo de Reserva;
+- Fundo de Despesas;
+- Alienação Fiduciária de Quotas.",2.0
+MXRF11,0.022764843012679108,,24A2246360,"- AF de imóvel;
+- Fundo de reserva;
+- Fundo de juros;
+- Fiança.",3.0
+MXRF11,0.020280703158479175,,24E2453531,"-Cessão de créditos e estoque/vendas futuras do projeto Jardins Genebra;
+- Aval dos sócios PF;
+- Fundo de Reserva (2 PMTs);
+- Fundo de Despesas.
+- Alienação fiduciária de ações da SPE;",2.0
+MXRF11,0.020230237708273906,,23H1074707,"- AF de quotas das SPEs;
+- CF de recebíveis;
+- Fiança;
+- Fundos.",2.0
+MXRF11,0.018634832490182038,,20B0817201,"- Fundo de 11 PMTs para o período de retrofit;
+- Adicionalmente 2 PMTs durante toda a operação;
+- Fiança Locatícia de seguradora ou banco de primeira linha;
+- Coobrigação do FII cedente, que conta com cotistas de muito elevada robustez financeira;
+- AF do imóvel, com LTV aproximado de 70%, imóvel em região nobre e de alta procura no Rio de Janeiro - RJ.",3.0
+MXRF11,0.01735069729265053,,24E3191022,"- AF de Imóvel;
+- Cessão fiduciária de direitos creditórios;
+- Fundo de Despesas e Reserva.",3.0
+MXRF11,0.016521602835771917,,22L1314899,"- Alienação Fiduciária de CEPAC; e/ou
+- Alienação Fiduciária de cotas; e/ou
+- Alienação Fiduciária de imóveis.",3.0
+MXRF11,0.015910974615168574,,21K1073642,"- AF de imóvel;
+- CF de recebíveis;
+- Endosso de seguro patrimonial (GPA e devedora);
+- Fundo de despesas;
+- Fundo de juros;
+- Fundo de reserva.",3.0
+MXRF11,0.014308814508888882,,21F0568504,"- Cessão Fiduciária de Direitos Creditórios;
+- Alienação Fiduciária de imóveis;
+- Aval dos acionistas da AIZ na PF;
+- Fundo de despesas.",3.0
+MXRF11,0.013605412050841901,,21H0975635,"- Alienação Fiduciária do imóvel;
+- Fundo de reserva;
+- Seguro patrimonial.",3.0
+MXRF11,0.01321906306525914,,21F0211653,"- Cessão Fiduciária;
+- Alienação Fiduciária de imóveis;
+- Aval dos acionistas da Rio Ave e dos acionistas na PF;
+- Fundo de reserva;
+- Fundo de despesas.",3.0
+MXRF11,0.01254999063614742,,23F2427206,"- AF de imóveis no valor de R$ 153MM, perfazendo um LTV inicial de 73%;
+- Cessão fiduciária;
+- endosso dos seguros de locação (seguro patrimonial e seguro de perda de receita).",3.0
+MXRF11,0.012289912540692092,,23H1539646,"- AF de imóvel;
+- Fundo de reserva;
+- Fundo de juros;
+- Fiança.",3.0
+MXRF11,0.012031825442696008,,23G2239867,"- AF de cotas da SPE (LTV de 49%);
+- CF de 50% do NOI do empreendimento;
+- Fundo de reserva de 2 PMTs;
+- Endosso do seguro patrimonial de 50% do empreendimento (após término de obras);
+- Aval da OPI Mall, César Federman e demais acionistas (até o término de obras).",2.0
+MXRF11,0.011722688888582907,,24B1276266,"- AF dos imóveis;
+- Fundo de Reserva;
+- Fiança",3.0
+MXRF11,0.011466269671124902,,21H0697914,"- Cessão Fiduciária de recebíveis;
+- Alienação Fiduciária do imóvel;
+- Aval dos sócios da RCP na PF.",3.0
+MXRF11,0.010995380943124635,,24C1990828,"- Fundo de Reserva de Inadimplência;
+- Fundo de Despesas.",1.0
+MXRF11,0.010848320286143753,,20J0812309,"- AF de Imóveis;
+- Caução dados em garantia aos Contratos de Locação (lastro);
+- Fundo de Reserva;
+- Coobrigação da cedente.",3.0
+MXRF11,0.010827656873186951,,24C1998433,"- Alienação Fiduciária de Imóvel;
+- Alienação Fiduciária de Quotas;
+- Fundo de Despesas e Reserva.",3.0
+MXRF11,0.010293888015578324,,20L0653519,"- Alienação Fiduciária dos imóveis;
+- Seguro Patrimonial;
+- Fundo de reserva.",3.0
+MXRF11,0.009941584961361586,,22F0783773,"(i) AF de imóveis;
+(ii) Fiança.",3.0
+MXRF11,0.009780964791574948,,23F1241290,"(i) Fundo de reserva inicial equivalente a 150% da inadimplência esperada da carteira;
+(ii) Obrigação de recomposição do fundo de reseva pela devedora de até 50% do volume de emissão do CRI.",1.0
+MXRF11,0.009449753265111981,,22L1173045,"- Aval da FS Ltda e FS S.A
+- Contrato de Offtaker para a venda de biomassa (bambu e eucalipto) entre as empresas do grupo",1.0
+MXRF11,0.00926947993577379,,24C1690314,"- Fiança GAV Holding;
+- Alienação Fiduciária de Quotas da SPE;
+- Cessão Fiduciária dos Recebíveis do projeto Porto 2 Life;
+- Fundos de Obra, Reserva e Despesas.",2.0
+MXRF11,0.009221336954156131,,23K2260145,"- Alienação Fiduciária de participações;
+- Fundo de reserva;
+- Fundo de despesas.",2.0
+MXRF11,0.009067437331560459,,24D0480929,"- Alienação Fiduciária;
+- Seguro Patrimonial;
+- Fiança;
+- Fundo de Reserva.",3.0
+MXRF11,0.009063981441275779,,20G0800227,"- AF das respectivas frações ideais dos objetos lastro da operação;
+- Cessão fiduciária dos recebíveis dos 8 empreendimentos que são lastro da operação.",2.0
+MXRF11,0.009005776387101072,,24B1276268,"- AF dos imóveis;
+- Fundo de Reserva;
+- Fiança",3.0
+MXRF11,0.008924937408740875,,19I0737680,"- Cessão Fiduciária de dividendos do shopping, que devem perfazer ao menos 165% da PMT do CRI Sênior;
+- AF de fração ideal do shopping, com LTV Sênior de 44,71%;
+- Aval Corporativo da Holding;
+- Três tranches de subordinação, com a holding possuindo 10% da emissão.",2.0
+MXRF11,0.008916226780594736,,23D1175169,"- AF de imóveis
+- Fiança do Grupo Mateus",3.0
+MXRF11,0.008767407496639432,,22F1357736,- AF de cotas do FII Barzel,2.0
+MXRF11,0.008433919703809677,,21G0154352,"- Aval da Cemara;
+- Fiança dos acionistas na PF;
+- AF das cotas da SPE;
+- CF dos recebíveis.",2.0
+MXRF11,0.0077294606830774605,,20A0982855,"- Cessão Fiduciária dos aluguéis do shoping e estacionamento, que devem perfazer ao menos 146% da PMT do CRI;
+- AF do imóvel;
+- Aval do principal acionista do grupo na pessoa física.",3.0
+MXRF11,0.007723963507782471,,19L0838765,- ICSD mínimo: 125% do valor da próxima PMT.,1.0
+MXRF11,0.007695591817850697,,22F0715946,"(i) AF de terreno localizado no Higienópolis, bairro nobre de SP;
+(ii) AF de cotas de SPEs;
+(iii) Promessa de CF das vendas das futuras unidades do empreendimento;
+(iv) Aval da Helbor",3.0
+MXRF11,0.007534739688796164,,19F0922610,"- Cessão Fiduciária do NOI na participação do cedente, com ICSD de 150%;
+- LTV da fração do cedente, LTV de 56%;
+- AF das ações da SPE;
+- Fundo de Reserva de 1 PMT.",2.0
+MXRF11,0.0068519980467217755,,21L0823062,"- Cash collateral de R$ 20 milhões;
+- Fundo de juros de R$ 40 milhões;
+- CF de recebíveis oriundos da comercialização de cadeiras cativas, camarotes, vagas de estacionamento e bilheteria dos jogos de futebol.",1.0
+MXRF11,0.006054132432178211,,21D0429192,"- Cessão Fiduciária dos recebíveis;
+- Fiança;
+- Fundo de Reserva.",2.0
+MXRF11,0.006023172416629006,,19L0909950,"- Cessão Fiduciária dos aluguéis do shoping e estacionamento, que devem perfazer ao menos 146% da PMT do CRI;
+- AF do imóvel;
+- Aval do principal acionista do grupo na pessoa física.",3.0
+MXRF11,0.005915398826309565,,24B1276213,"- AF dos imóveis;
+- Fundo de Reserva;
+- Fiança",3.0
+MXRF11,0.005713249235632371,,19L0917227,"- Cessão Fiduciária dos aluguéis do shoping e estacionamento, que devem perfazer ao menos 146% da PMT do CRI;
+- AF do imóvel;
+- Aval do principal acionista do grupo na pessoa física.",3.0
+MXRF11,0.0054742047952405165,,20K0571487,- Alienação Fiduciária do imóvel.,3.0
+MXRF11,0.00504255286286484,,24B0013802,"- AF de imóvel;
+- AF de quotas;
+- Fundo de despesas.",3.0
+MXRF11,0.004920104057490902,,19I0737681,"- Cessão Fiduciária de dividendos do shopping, que devem perfazer ao menos 165% da PMT do CRI Sênior;
+- AF de fração ideal do shopping, com LTV Sênior de 44,71%;
+- Aval Corporativo da Holding;
+- Três tranches de subordinação, com a holding possuindo 10% da emissão.",2.0
+MXRF11,0.004172205162806421,,23F1763644,- Fiança,2.0
+MXRF11,0.004157987292193941,,23L2159971,"- Cash sweep do fluxo excedente mensal;
+- Fundo de reserva (R$ 3MM)e despesa;
+- Servicer para espelhamento de recebíveis;
+- Coobrigação da Direcional Engenharia (limitada a R$ 21MM);
+- Cobrança dos créditos pela Direcional Engenharia.",1.0
+MXRF11,0.0040317963639883,,22B0309134,"- Alienação fiduciária de quotas;
+- Cessão Fiduciária de recebíveis no montante de 120% da próxima PMT;
+- Fiança Bild Desenvolvimento Imobiliário S.A. e Vita.",2.0
+MXRF11,0.00400112870363284,,22J0346032,"- AF do terreno;
+- CF dos recebíveis do empreendimento (atuais e futuros);
+- AF de cotas da SPE;
+- Fundo de reserva;
+- Fundo de despesas;
+- Seguro de obras;
+- Fiança e aval da Arquiplan e dos sócios na PF.",3.0
+MXRF11,0.0029383100935406452,,20I0777292,"- Alienação Fiduciária de três empreendimentos avaliados em R$ 228 milhões por consultoras independentes, com área de BOMA de 26.424m² e LTV de 65%;
+- Cessão Fiduciária dos contratos de locação atuais e Promessa de Cessão Fiduciária de contratos de locação futuros;
+- Fundo de Reserva equivalente a duas PMTs;
+- Garantidora: Helbor Empreendimentos S.A.;
+- Mecanismo de cash sweep, com amortização extraordinária do principal em caso de excedente dos valores dos alugueis frente as PMTs do CRI.",3.0
+MXRF11,0.0025986193858678224,,21K0633996,"- Cessão Fiduciária de Direitos Creditórios;
+- Aval dos acionistas da AIZ na PF.",2.0
+MXRF11,0.002585432210036884,,20L0653261,"- Alienação Fiduciária dos imóveis (mín. 133% do saldo devedor do CRI);
+- Covenant financeiro: (Dívida Líquida + Imóveis a Pagar)/Patrimônio Líquido <= 0,70x (ex-SFH).",3.0
+MXRF11,0.002572488576157002,,22D0371507,"- AF de imóveis
+- Fiança do Grupo Mateus",3.0
+MXRF11,0.002026821811228602,,21F0906525,"- Alienação Fiduciária do imóvel;
+- Fundo de reserva;
+- Fiança.",3.0
+MXRF11,0.0020000981284764487,,22J0346038,"- AF do terreno;
+- CF dos recebíveis do empreendimento (atuais e futuros);
+- AF de cotas da SPE;
+- Fundo de reserva;
+- Fundo de despesas;
+- Seguro de obras;
+- Fiança e aval da Arquiplan e dos sócios na PF.",3.0
+MXRF11,0.001985276593681615,,20J0667658,"-Alienação Fiduciária dos imóveis;
+- Cessão Fiduciária dos Direitos Creditórios;
+- Fiança do fundador da HF Engenharia;
+- Fundo de Reserva;
+- Fundo de despesas com IPTU;
+- Fundo de despesas.",3.0
+MXRF11,0.0018409736747907787,,22I1555753,"- AF de cotas,
+- CF de recebíveis, 
+- AF de imóvel, 
+- Fiança; e
+- Fundo de obras.",3.0
+MXRF11,0.0018316422039703405,,22B0939878,"- Cessão fiduciária de recebíveis;
+- Alienação fiduciária de imóveis;
+- Fiança;
+- Fundo de reserva de 3 PMTs.",3.0
+MXRF11,0.0018142413784501825,,22B0939875,"- Cessão fiduciária de recebíveis;
+- Alienação fiduciária de imóveis;
+- Fiança;
+- Fundo de reserva de 3 PMTs.",3.0
+MXRF11,0.0016429729985762852,,19F0923004,"- AF do imóvel, LTV = 59%;
+- Aval corporativo.",3.0
+MXRF11,0.0016239572623121415,,19L0906036,"- AF de estoque com no mínimo 130% do saldo devedor;
+- Seleção de imóveis pré-estabelecidos, maioria em regiões nobres de São Paulo - SP;
+- Fundo de Reserva de R$ 5 milhões.",3.0
+MXRF11,0.0014507658709300459,,22B0084502,"(i) AF dos imóveis
+(ii) AF das quotas das SPE's
+(iii) CF dos recebíveis dos empreendimentos
+(iv) Fiança da Vitacon e do Alexandre Frankel",3.0
+MXRF11,0.0014309558358080341,,23C2829802,- Fiança bancária.,3.0
+MXRF11,0.0013539113112462481,,22B0939864,"- Cessão fiduciária de recebíveis;
+- Alienação fiduciária de imóveis;
+- Fiança;
+- Fundo de reserva de 3 PMTs.",3.0
+MXRF11,0.0012440799415034556,,23C2830001,- Fiança bancária.,3.0
+MXRF11,0.0011791770286519307,,24F2269311,"- Aval da Mitre;
+- AF de Quotas;
+- AF de Imóvel;
+- Cessão fiduciária dos direitos creditórios.",3.0
+MXRF11,0.0011790828349495662,,24F2269312,"- Aval da Mitre;
+- AF de Quotas;
+- AF de Imóvel;
+- Cessão fiduciária dos direitos creditórios.",3.0
+MXRF11,0.001061285219352755,,20J0837207,"- Critério de elegibilidade da carteira;
+- AF das unidades, com LTV médio inferior a 40% e máximo de 60%;
+- Duas tranches de subordinação;
+- Fundo de reserva;
+- Apólices de seguros;
+- Cobertura Mínima de recebíveis com mecanismo de aceleração de amortizações.",2.0
+MXRF11,0.001053447933536313,,18L1179520,"- Cessão Fiduciária aluguéis de um condomínio logistico da companhia;
+- AF do imóvel.",3.0
+MXRF11,0.0009008032206737585,,23C2830002,- Fiança bancária.,3.0
+MXRF11,0.0008834488455958298,,23C2829803,- Fiança bancária.,3.0
+MXRF11,0.0006518594722240062,,12E0031990,"- Cessão Fiduciária dos contratos de locação, que perfazem ao menos 120% da PMT do CRI;
+- AF do imóvel;
+- Fundo de Reserva de 2 PMTs;
+- Endosso do seguro patrimonial.",3.0
+MXRF11,0.0006155820429366073,,20H0695880,"- Alienação Fiduciária de 11 lojas locadas pelo Pão de Açúcar e Extra no estado de SP, perfazendo um valor de avaliação de R$ 228.020.000;
+- Alienação Fiduciária de Cotas da SPE;
+- Promessa de Cessão Fiduciária de contratos de locação futura no mesmo Imóvel;
+- Fundo de Reserva de 2 PMTs do CRI;
+- Fundo de despesas do CRI.",3.0
+MXRF11,0.0005236068474454469,,21B0544455,"- Alienação Fiduciária de ativos cujo valor seja maior ou igual a 50% (cinquenta por cento) do Saldo Devedor do CRI, composta entre: (i) terrenos no estado de São Paulo, avaliado com base no valor de venda forçada e (ii) cotas da SPE Windsor, avaliadas com base no seu Net Asset Value (NAV).",2.0
+MXRF11,0.00048721496132080565,,20L0632150,"- Fundo de despesas;
+- Servicer para espelhamento de carteiras;
+- Cobrança feita pela Direcional Engenharia.",1.0
+MXRF11,0.00047786334276125317,,19B0177968,"- Cessão fiduciária dos recebíveis e promessa de cessão dos futuros recebíveis de três empreendimentos da companhia com mecanismo de cash sweep;
+- Aval da holding controladora do grupo.",2.0
+MXRF11,0.0004658423863179278,,18D0698877,"- Cessão fiduciária dos recebíveis e promessa de cessão dos futuros recebíveis de dois empreendimentos da companhia com mecanismo de cash sweep;
+- Aval da holding controladora do grupo.",2.0
+MXRF11,0.0002968283998760254,,19A0698738,"- Alienação Fiduciária de Bens Imóveis;
+- Fundo de Reserva;
+- Fiança Corporativa.",3.0
+MXRF11,4.2137899053682664e-05,,23L2159982,"- Cash sweep do fluxo excedente mensal;
+- Fundo de reserva (R$ 3MM)e despesa;
+- Servicer para espelhamento de recebíveis;
+- Coobrigação da Direcional Engenharia (limitada a R$ 21MM);
+- Cobrança dos créditos pela Direcional Engenharia.",1.0
+MXRF11,3.472528278099535e-05,,20I0718383,"- Alienação Fiduciária dos imóveis (Imarés e Lorena);
+- Cessão Fiduciária dos recebíveis;
+- Promessa de Cessão Fiduciária dos recebíveis futuros;
+- Fiança dos sócios na Pessoa Física;
+- Alienação Fiduciária das cotas das SPEs;
+- Fundo de Reserva;
+- Fundo de Obras equivalente a 110% do valor remanescente das obras.",3.0
+MXRF11,8.78219461606953e-06,,20I0718026,"- Alienação Fiduciária dos imóveis (Imarés e Lorena);
+- Cessão Fiduciária dos recebíveis;
+- Promessa de Cessão Fiduciária dos recebíveis futuros;
+- Fiança dos sócios na Pessoa Física;
+- Alienação Fiduciária das cotas das SPEs;
+- Fundo de Reserva;
+- Fundo de Obras equivalente a 110% do valor remanescente das obras.",3.0
+MXRF11,3.5964886116955706e-07,,14K0234407,Papel em processo de excussão das garantias,0.0
+MXRF11,3.5175306614948045e-11,,13L0034539,"- AF do imóvel;
+- Endosso do seguro patrimonial;
+- Fundo de Reserva de 5 PMTs;
+- Aval corporativo da Cogna;
+- Aval do cedente na pessoa física de seu controlador.",3.0
+MXRF11,2.57952248509619e-11,,11F0042226,- Cessão Recebíveis.,1.0
+MXRF11,1.6415143086975758e-11,,15H0698161,"- AF cotas de dois empreendimentos;
+- AF de terreno em Porto Alegre - RS;
+- Fundo de Reserva;
+- Aval dos sócios na pessoa física",3.0
+RBRY11,0.08605968824280627,,CRI Tael,"AF Imóvel, SPE + CF + Aval",3.0
+RBRY11,0.04965900297821783,,CRI Yuny Jardim Paulista Série I,"AF Imóvel, SPE + CF + Aval + Fiança",3.0
+RBRY11,0.04877328406825121,,CRI MOS Jardins e Pinheiros,"AF Terreno, SPE + CF + Aval + FR",3.0
+RBRY11,0.038712996073240025,,CRI FGR,"AF Terreno, SPE + CF + Aval + FR",3.0
+RBRY11,0.03548540801347376,,CRI JFL Parque da Cidade,"AF Imóvel, SPE + CF + Aval",3.0
+RBRY11,0.030782743132300165,,CRI Patriani,"AF Terreno, SPE + CF + Aval + FR",3.0
+RBRY11,0.025959539243018134,,CRI Lux Vila Nova Conceição,"AF Imóvel, SPE + CF + Aval",3.0
+RBRY11,0.023733294589024304,,CRI Cond. Residencial AA SP,"AF Imóvel, SPE + CF + Fiança + FR",3.0
+RBRY11,0.023029732722037195,,CRI Share Butantã,AF Imóvel + CF + FR,3.0
+RBRY11,0.020901735431129304,,CRI Emergent Cold,AF Imóvel + FR,3.0
+RBRY11,0.018340043213501366,,CRI Cabreúva,AF Imóvel,3.0
+RBRY11,0.018030797603924814,,CRI Creditu,AF Imóvel + Seguro,3.0
+RBRY11,0.017870955701865837,,CRI Moura Dubeux,AF Imóvel + CF + FR + Aval,3.0
+RBRY11,0.017718253631637156,,CRI HM Maxi Campinas,"AF Imóvel, SPEs + CF + Aval",3.0
+RBRY11,0.017069722746764132,,CRI Carteira MRV III (Série II),FR + Seguro,1.0
+RBRY11,0.016353007648830912,,CRI Pulverizado,AF Imóvel,3.0
+RBRY11,0.014727459269298691,,CRI Conx,AF Imóvel + SPE + CF + Fiança + Aval,3.0
+RBRY11,0.014132577710366318,,CRI You,"AF Terreno, SPE + CF",3.0
+RBRY11,0.012896023148727887,,CRI Verticale,"AF Imóvel, SPE + CF + Aval",3.0
+RBRY11,0.009302620206603269,,CRI Yuny II CDI,AF SPE + CF + Fiança + Aval,3.0
+RBRY11,0.008118121716788563,,CRI Carteira MRV III (Série I),FR + Seguro,1.0
+RBRY11,0.00785943014740716,,CRI Epson,AF Terrenos e SPE + CF + FR + Aval,3.0
+RBRY11,0.007568928609848204,,CRI Tarjab Altino CDI,AF Imóvel e SPE + Aval + FR,3.0
+RBRY11,0.0075562138766759055,,CRI Pernambuco,AF Imóvel + CF + FR,3.0
+RBRY11,0.007256494602256607,,CRI Exto,AF Matrículas + Cash Sweep,3.0
+RBRY11,0.00628790691419733,,CRI Tarjab Lauto,AF Terreno e SPE + FR + Aval,3.0
+RBRY11,0.0058914877773729914,,CRI Alphaville,AF Imóvel e SPE + CF + Aval + FR,3.0
+RBRY11,0.005039901547589205,,CRI Brookfield JK CDI,AF Imóvel + CF + FR,3.0
+RBRY11,0.004535465487440071,,CRI Landsol,AF Matrículas e SPEs + CF + FR,3.0
+RBRY11,0.00412462672002454,,CRI Setin Perdizes,AF Matrícula + FR + Aval,3.0
+RBRY11,0.004091925161218316,,CRI Yuny Jardim Paulista Série II,AF Imóvel e SPE + CF + Fiança + Aval,3.0
+RBRY11,0.004002424889995039,,CRI Arqos,AF SPE + CF + Fiança + Aval,2.0
+RBRY11,0.0036717413227775847,,CRI Carteira MRV V (Série III),AF Imóvel + FR,3.0
+RBRY11,0.0036027552060877593,,CRI One Perdizes,AF Imóvel e SPE + CF + Fiança + Aval + FR,3.0
+RBRY11,0.0034802224528329853,,CRI Carteira MRV IV (Série II),AF Imóvel + FR,3.0
+RBRY11,0.00253570449752995,,CRI Lindenberg,AF SPE + CF + Fiança + Aval + FR,2.0
+RBRY11,0.002368335742032934,,CRI Tarjab Origem,AF SPE + CF + Aval + FR,2.0
+RBRY11,0.0022248124889670657,,CRI Pontte,AF Imóveis + sobrecolateral em volume,3.0
+RBRY11,0.0016346870521704296,,CRI Mauá 2,AF Imóveis + sobrecolateral em volume,3.0
+RBRY11,0.0011583995255466932,,CRI Wimo,AF Imóveis + sobrecolateral em volume,3.0
+RBRY11,0.0009933805222149808,,CRI Yuny,AF SPE + CF + Fiança + Aval,2.0
+RBRY11,0.0008716326912860434,,CRI Creditas V,AF Imóveis,3.0
+RBRY11,0.0008246807811210041,,CRI Tourmalet Mez 1,AF Imóvel + CF + Recompra SPE,3.0
+KNCR11,0.0515640053933221,,19E0322333,"AF, CF e FR",3.0
+KNCR11,0.04374181417324606,,22G0282370,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.039367632754801075,,22G0282332,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.03499345133775656,,22G0282297,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.03185830770640919,,19B0176400,"AF, CF e FR",3.0
+KNCR11,0.03061926992071205,,22G0282284,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.028892751528601282,,23H1250138,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.028408625780552244,,17I0141643,AF e CF,3.0
+KNCR11,0.028408625780552244,,17I0141606,AF e CF,3.0
+KNCR11,0.026212827474119613,,19L0882476,"AF, CF e FR",3.0
+KNCR11,0.026151285891633787,,22G0282145,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.023831925513467623,,20A0797060,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.02321883258450013,,20J0812325,"AF,CF e FR",3.0
+KNCR11,0.021312374096779618,,23J2266232,AF e AF de Cotas,3.0
+KNCR11,0.020517684500125685,,22F1035289,AF e CF,3.0
+KNCR11,0.019533486281205565,,22F1195743,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.019527869057791462,,22F1195716,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.017838448144735234,,19F0923004,AF e CF,3.0
+KNCR11,0.01708421417378916,,22F0658610,"AF, CF e FR",3.0
+KNCR11,0.016323828876192027,,22F1195714,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.016015509290243098,,22A0118041,"AF, CF e FR",3.0
+KNCR11,0.01562505040728317,,23I1740395,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.015450620774940157,,24C1475910,"AF, CF e FR",3.0
+KNCR11,0.014717647167516619,,19A1316808,"AF, CF e FR",3.0
+KNCR11,0.014551874820725993,,24E1127893,"AF, CF e FR",3.0
+KNCR11,0.014319752098299719,,24F1645739,AF e CF,3.0
+KNCR11,0.01429940683695961,,24C1475908,"AF, CF e FR",3.0
+KNCR11,0.014039149320146188,,24D3680471,CF e FR,1.0
+KNCR11,0.013608681230283805,,17F0035000,AF de Cotas,2.0
+KNCR11,0.013157157680140587,,16C0208472,AF e CF,3.0
+KNCR11,0.012946542203377383,,24D0007013,FR,0.0
+KNCR11,0.012943918064947837,,23F2335074,"AF de Cotas, CF e FR",2.0
+KNCR11,0.012355678655165646,,24C1886299,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.01191596178971364,,15L0736524,AF e CF,3.0
+KNCR11,0.011625721685724856,,24E1127608,"AF, CF e FR",3.0
+KNCR11,0.010292983880361418,,23E2052240,"AF,CF e FR",3.0
+KNCR11,0.009817585334613596,,19H0000001,"AF, CF e FR",3.0
+KNCR11,0.00954615446479961,,21L0729901,"AF de Cotas, CF e FR",2.0
+KNCR11,0.008987707950787596,,16E0707976,AF e CF,3.0
+KNCR11,0.008448721373992527,,21L0848239,"AF de Cotas, CF e FR",2.0
+KNCR11,0.007890410999054983,,16L0194496,AF e CF,3.0
+KNCR11,0.0076711799173394745,,22I1289815,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.007054448564121176,,24A2983450,CF,1.0
+KNCR11,0.007030290454980131,,21K1026250,"AF, CF e FR",3.0
+KNCR11,0.005240869212879638,,17J0104526,AF e CF,3.0
+KNCR11,0.005012593884892393,,23C1842756,FR,0.0
+KNCR11,0.0048890410352122,,18C0803997,AF e CF,3.0
+KNCR11,0.004618365793980303,,23C1843793,FR,0.0
+KNCR11,0.003882593694600272,,20A0934859,"AF, CF e Aval",3.0
+KNCR11,0.003800221735756953,,19B0166684,AF e CF,3.0
+KNCR11,0.003660286662464176,,20B0820360,"AF, CF e FR",3.0
+KNCR11,0.0033902331206715876,,23I1554258,FR,0.0
+KNCR11,0.0029584343550339625,,22I1289809,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.0027987421815361437,,15L0676664,AF e Aval,3.0
+KNCR11,0.0027254680521054753,,24C1693601,"AF, AF de cotas, CF e Aval",3.0
+KNCR11,0.0023883459096791463,,22I1289814,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.002067194149508288,,20B0817042,"AF, AF de Cotas, CF e FR",3.0
+KNCR11,0.002009198249767363,,22I1289810,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.001405293569749652,,21C0749579,"AF, CF e FR",3.0
+KNCR11,0.000997471341736314,,22I1289811,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.0009670335898598568,,22I1289813,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.000737680430011802,,21L0668560,"AF, CF e Aval",3.0
+KNCR11,0.0006584492518538099,,20J0894745,"AF, CF e FR",3.0
+KNCR11,0.0005490250640513976,,22I1289808,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.0005282044503262249,,22I1289816,"AF, AF de Cotas, CF e Aval",3.0
+KNCR11,0.00010550254357991995,,20I0719702,"AF, CF, FR e Aval",3.0
+KNCR11,0.0026968351534002975,,14K0209085,AF e CF,3.0
+KNCR11,0.0013445708677880897,,19L0882449,AF e CF,3.0
+RBRR11,0.0918856205796496,,CRI Leroy II,AF Imóvel + CF,3.0
+RBRR11,0.06770891753236775,,CRI JK Financial Center,AF Imóvel + CF + FR,3.0
+RBRR11,0.06749824884413765,,CRI Brookfield JK IPCA,AF Imóvel + CF + FR,3.0
+RBRR11,0.06368469842176146,,CRI Tellus Brigadeiro,CF alugueis e recebíveis venda de um edificio,1.0
+RBRR11,0.06076900453534339,,CRI GT - Banco do Brasil,AF Imóvel (25 mil m2) + CF,3.0
+RBRR11,0.05599444042965537,,CRI JFL Jardim Faria Lima,CF + Fiança + FR,1.0
+RBRR11,0.04112963492269613,,CRI Cabreúva,AF Imóvel,3.0
+RBRR11,0.03813799978130296,,CRI CD Guarulhos,AF Imóvel,3.0
+RBRR11,0.03531550789756869,,CRI Faria Lima Business Center,AF Imóvel + CF,3.0
+RBRR11,0.03299072664876342,,CRI Leo Madeiras,AF Imóvel,3.0
+RBRR11,0.03062895325631958,,CRI Pátio Malzoni,AF Imóvel + CF + FR,3.0
+RBRR11,0.028563765040755803,,CRI Share Pinheiros,AF Imóvel + CF + FR,3.0
+RBRR11,0.021063386230842137,,CRI BTLG,AF Imóvel + CF,3.0
+RBRR11,0.01957611184713805,,CRI GE Barueri,AF Imóvel + CF,3.0
+RBRR11,0.01907629723666476,,CRI Union Faria Lima I,AF Imóvel,3.0
+RBRR11,0.016843086791492535,,CRI HLOG,AF Imóvel + Coobrigação,3.0
+RBRR11,0.01629509962298202,,CRI Brookfield JK CDI,AF Imóvel + CF + FR,3.0
+RBRR11,0.015840129859130175,,CRI HDEL,AF Imóvel,3.0
+RBRR11,0.01540462569064739,,CRI Barueri Logístico,AF Imóvel + CF + FR,3.0
+RBRR11,0.014610817590812461,,CRI Patrifarm,AF Imóvel + CF,3.0
+RBRR11,0.012003369005411308,,CRI Creditas II Sênior I,AF Imóvel + Sobrecolaterização de taxa e seguros,3.0
+RBRR11,0.01097845273811735,,CRI Yuca Pinheiros,AF Terreno e SPE + CF + Aval + FR,3.0
+RBRR11,0.010511209819680884,,CRI Airport Town,AF Imóvel + CF,3.0
+RBRR11,0.009268366069234443,,CRI BTLG II,AF Imóvel + CF,3.0
+RBRR11,0.008593533080079008,,CRI Viverde Sênior,AF SPEs + Seguro,3.0
+RBRR11,0.006973894724932031,,CRI Bem Brasil,Fiança sócios,1.0
+RBRR11,0.0069497580219508946,,CRI BTG Malls,AF Imóveis,3.0
+RBRR11,0.006874492763322034,,CRI JFL,AF + CF + FR,3.0
+RBRR11,0.0054514636364658905,,CRI Log IV,Lastro em debenture,0.0
+RBRR11,0.005136221290913518,,CRI MRV III,Lastro em debenture,0.0
+RBRR11,0.005012161607035848,,CRI JSL I,AF Imóvel + CF,3.0
+RBRR11,0.004554958450981537,,CRI JSL II,AF Imóvel + CF,3.0
+RBRR11,0.0041627599727424415,,CRI HBR,AF Imóvel + CF + Garantia corporativa,3.0
+RBRR11,0.0036049074500735397,,CRI Rede D'or 2,Lastro em debenture,0.0
+RBRR11,0.0033795741541154177,,CRI MRV,AF Imóvel + Ativo garantia,3.0
+RBRR11,0.0032329781755253396,,CRI Tecnisa,Lastro em debenture,0.0
+RBRR11,0.002868893754051741,,CRI Le Biscuit,AF Imóvel + CF + FR,3.0
+RBRR11,0.002305690069593829,,CRI Lindenberg,AF SPEs + CF + Fiança + FR,2.0
+RBRR11,0.0016528143700485648,,CRI Creditas,AF Imóvel,3.0
+RBRR11,0.0013282402777971478,,CRI BRF,AF Imóvel,3.0
+CPTR11,0.071,,CRA021004NU,Cessão Fiduciária + Reserva,1.0
+CPTR11,0.07,,CRA022009KI,Clean,0.0
+CPTR11,0.047,,CRA0220060P,AF Terras,3.0
+CPTR11,0.043,,CRA02200795,Subordinação,1.0
+CPTR11,0.042,,CRA0220073O,AF Imóveis e equipamentos + Recebíveis + Fiança,3.0
+CPTR11,0.037000000000000005,,CRA02300VST,"AF Imóvel, Estoque + Recebíveis + Reserva + Aval",3.0
+CPTR11,0.036000000000000004,,23J1042731,?,0.0
+CPTR11,0.035,,CRA02300GO1,Recebíveis + Aval,1.0
+CPTR11,0.031,,CRA02200CT5,Recebíveis + Aval + Reserva,1.0
+CPTR11,0.028999999999999998,,CRA02300Q8I,Recebíveis + Aval,1.0
+CPTR11,0.027999999999999997,,CRA02300NM1,Subordinação + Recompra de créditos pelos acionistas,1.0
+CPTR11,0.026000000000000002,,CRA02300R5T,AF Veículos + Recebíveis,2.0
+CPTR11,0.025,,CRA022008YH,Cessão Fiduciária + Fiança + Reserva,1.0
+CPTR11,0.025,,CRA023005V5,AF Imóvel + Recebíveis + Aval,3.0
+CPTR11,0.025,,5483424UN1,?,0.0
+CPTR11,0.025,,CRA021004NV,Clean,0.0
+CPTR11,0.023,,CRA02300CI2,AF Grãos + Recebíveis + Cash collateral + Aval,2.0
+CPTR11,0.022000000000000002,,CRA02200DKY,Recebíveis + Aval,1.0
+CPTR11,0.022000000000000002,,CRA021005QS,AF Terras + Penhor Cana + Reserva,3.0
+CPTR11,0.021,,BBGO11,?,0.0
+CPTR11,0.02,,CRA023001JL,AF Industria + Recebíveis + Aval,2.0
+CPTR11,0.017,,CRA021002ST,AF de terras e Ativo biológico,3.0
+CPTR11,0.019,,CRA023003JX,AF Imóvel + Recebíveis + Aval,3.0
+CPTR11,0.019,,CRA022006N6,Recebíveis + Fiança + Reserva,2.0
+CPTR11,0.019,,CRA021005L0,Subordinação + Recebíveis,1.0
+CPTR11,0.017,,CRA021004I5,"AF Terreno Industrial, Equipamenos, Soqueira e Cana + Contratos de venda de açucar e etanol",3.0
+CPTR11,0.016,,CRA021004I6,"AF Terreno Industrial, Equipamenos, Soqueira e Cana + Contratos de venda de açucar e etanol",3.0
+CPTR11,0.016,,CRA023006SH,Recebíveis + Aval,1.0
+CPTR11,0.016,,CRA021005QP,AF Terras + Penhor Cana + Reserva,3.0
+CPTR11,0.016,,CRA0220099D,Recebíveis,1.0
+CPTR11,0.015,,CRA021005LP,Subordinação + Recebíveis,1.0
+CPTR11,0.013000000000000001,,22L1258273,AF de Lojas,3.0
+CPTR11,0.012,,4571424MZJ,20% Subordinação,1.0
+CPTR11,0.012,,CRA022007KH,Clean,0.0
+CPTR11,0.012,,CRA023000M9,Recebíeis + Aval,1.0
+CPTR11,0.012,,4571422SN6,50% Subordinação,1.0
+CPTR11,0.009000000000000001,,CRA022002MH,Aval + Reserva,2.0
+CPTR11,0.008,,CRA021004I1,Cessão Fiduciária + Aval + Reserva,2.0
+CPTR11,0.006999999999999999,,CRA021004I4,"AF Terreno Industrial, Equipamenos, Soqueira e Cana + Contratos de venda de açucar e etanol",3.0
+CPTR11,0.005,,CRA0190020F,Recebíeis contra a união,1.0
+CPTR11,0.005,,22J1107076,AF Imóveis + Aval,3.0
+CPTR11,0.003,,CRA02200B42,AF Imóveis e equipamentos + Recebíveis + Fiança,3.0
+CPTR11,0.003,,22L1212138,AF de Lojas,3.0
+CPTR11,0.002,,CRA021005LQ,AF Imóveis,3.0
+CPTR11,0.002,,CRA021002N3,Clean,0.0
+CPTR11,0.001,,CRA0230099D,AF Terras + Recebíveis + Aval,3.0
+CPTR11,0.001,,4571422SN7,50% Subordinação,1.0
+CPTR11,0.001,,CRA023003JY,AF Imóvel + Recebíveis + Aval,3.0
+CPTR11,0.001,,CRA021005KY,Subordinação + Recebíveis,1.0
+CPTR11,0.0,,CRA021005KX,Subordinação + Recebíveis,1.0
+CPTR11,0.0,,CRA021002YF,?,0.0
+CPTR11,0.0,,CRA021005LP,AF Imóveis,3.0
+KNCA11,0.038949928788988626,,CRA02300QP6,"AF máquinas e equipamentos, AF de ações e CF recebíveis",2.0
+KNCA11,0.03858369349487066,,CRA022006BT,"AF terras e benfeitorias, AF ativo biológico e Aval",3.0
+KNCA11,0.03439403918555172,,CRA021005QP,"AF terras, AF soqueiras, Penhor de cana e FR",3.0
+KNCA11,0.03419610110264861,,CRA021005QS,"AF terras, AF soqueiras, Penhor de cana e FR",3.0
+KNCA11,0.03332449441240062,,CRA023008HL,"AF terreno, AF máquinas e equipamentos, Caixa e Aval",3.0
+KNCA11,0.0290406687210768,,CRA022007VM,CF recebíveis e Aval,1.0
+KNCA11,0.0290406687210768,,CRA022007VK,CF recebíveis e Aval,1.0
+KNCA11,0.0290406687210768,,CRA022007VL,CF recebíveis e Aval,1.0
+KNCA11,0.02896307582375605,,CRA02300RMJ,AF imóvel e CF recebíveis,3.0
+KNCA11,0.026569074797365876,,CRA02300VSO,AF imóvel e Aval,3.0
+KNCA11,0.02530476518224922,,CRA023009EX,AF máquinas e equipamentos e Aval,2.0
+KNCA11,0.022882056091291132,,CRA0230073L,Clean,0.0
+KNCA11,0.022070586063751826,,CRA021004I4,"AF terreno, AF maquinas e equipamentos, AF soqueiras, AF cana e CF recebíveis",3.0
+KNCA11,0.02181949475634131,,CRA0230012X,Aval,1.0
+KNCA11,0.021551227451233897,,CRA021004I5,"AF terreno, AF maquinas e equipamentos, AF soqueiras, AF cana e CF recebíveis",3.0
+KNCA11,0.021526992250619964,,CRA02300V0Q,"CF recebíveis, AF imóvel e Aval",3.0
+KNCA11,0.0214858208903121,,CRA021004I3,"AF terreno, AF maquinas e equipamentos, AF soqueiras, AF cana e CF recebíveis",3.0
+KNCA11,0.02082045772076316,,CRA021004I6,"AF terreno, AF maquinas e equipamentos, AF soqueiras, AF cana e CF recebíveis",3.0
+KNCA11,0.01475044229222095,,CRA02300M81,"AF terreno, AF máquinas e equipamentos, AF de ações, CF recebíveis e Aval",3.0
+KNCA11,0.009945528704792686,,CRA02200B42,"AF imóvel, FR e Aval",3.0
+KNCA11,0.005707764929533936,,CRA023001P5,CF recebíveis e Aval,1.0
+KNCA11,0.00444982398261569,,CRA02300M82,"AF terreno, AF máquinas e equipamentos, AF de ações, CF recebíveis e Aval",3.0
+KNCA11,0.04469366321406313,,CRA022007KI,Clean,0.0
+KNCA11,0.03768256952947788,,CRA0220073P,Clean,0.0
+KNCA11,0.03237836515512941,,CRA022004H5,Clean,0.0
+KNCA11,0.030336118702386575,,CRA022007EP,Clean,0.0
+KNCA11,0.022937590157779755,,CRA0220079D,Clean,0.0
+KNCA11,0.022080453870994506,,CRA022006BU,Clean,0.0
+KNCA11,0.02194458611145853,,22E1056953,AF terras e aval,3.0
+KNCA11,0.021854304267361655,,CRA022008NB,Clean,0.0
+KNCA11,0.02109716423020266,,CRA021002YB,Clean,0.0
+KNCA11,0.015699080735743026,,CRA022007KH,Aval,1.0
+KNCA11,0.01024717518841926,,CRA022000B5,"AF terras, CF recebíveis de arrendamento e Aval",3.0
+KNCA11,0.006060100546167679,,CRA02300MOQ,Clean,0.0
+KNCA11,0.00521422945042558,,CRA021002N3,Clean,0.0
+KNCA11,0.0044602188739423666,,CRA0230073N,Clean,0.0
+KNCA11,0.08679725362058593,,5ROTT121,Clean,0.0
+KNCA11,0.06053567060958081,,5104524SN1,"Subordinação de 51,25% e Aval",1.0
+RURA11,0.022,,,AF Terras e Recebíveis,3.0
+RURA11,0.022,,,Recebíveis,1.0
+RURA11,0.021,,,AF Terras,3.0
+RURA11,0.021,,,Recebíveis,1.0
+RURA11,0.021,,,AF Terras,3.0
+RURA11,0.02,,,AF Terras e Recebíveis,3.0
+RURA11,0.02,,,Recebíveis,1.0
+RURA11,0.019,,,AF Terras,3.0
+RURA11,0.019,,,CDA/WA Estoques,2.0
+RURA11,0.019,,,AF Terras,3.0
+RURA11,0.019,,,AF Terras,3.0
+RURA11,0.018,,,AF Terras e Recebíveis,3.0
+RURA11,0.018,,,AF Terras,3.0
+RURA11,0.018,,,Penhor Cana,1.0
+RURA11,0.016,,,Recebíveis,1.0
+RURA11,0.016,,,Subordinação,1.0
+RURA11,0.015,,,"AF Imóvel, Cana e Recebíveis",3.0
+RURA11,0.015,,,AF Terras,3.0
+RURA11,0.014,,,AF Terras,3.0
+RURA11,0.013,,,Recebíveis,1.0
+RURA11,0.013,,,Guarantee Letter Matriz,2.0
+RURA11,0.012,,,AF Terras,3.0
+RURA11,0.012,,,AF Terras,3.0
+RURA11,0.012,,,Recebíveis,1.0
+RURA11,0.011,,,Subordinação,1.0
+RURA11,0.01,,,Subordinação,1.0
+RURA11,0.01,,,Subordinação,1.0
+RURA11,0.01,,,AF Terras e Recebíveis,3.0
+RURA11,0.01,,,AF Terras e Recebíveis,3.0
+RURA11,0.01,,,AF Terras,3.0
+RURA11,0.009,,,Subordinação,1.0
+RURA11,0.009,,,Subordinação,1.0
+RURA11,0.009,,,Subordinação,1.0
+RURA11,0.008,,,Recebíveis,1.0
+RURA11,0.008,,,Recebíveis,1.0
+RURA11,0.007,,,Recebíveis,1.0
+RURA11,0.007,,,Subordinação,1.0
+RURA11,0.007,,,Subordinação,1.0
+RURA11,0.007,,,Recebíveis,1.0
+RURA11,0.006,,,Subordinação,1.0
+RURA11,0.006,,,Subordinação,1.0
+RURA11,0.006,,,Subordinação,1.0
+RURA11,0.006,,,AF Terras,3.0
+RURA11,0.005,,,Recebíveis,1.0
+RURA11,0.005,,,Recebíveis,1.0
+RURA11,0.005,,,Recebíveis,1.0
+KNSC11,0.037,,22D1163306,"AF, AF de Cotas, CF e Aval ",3.0
+KNSC11,0.031,,21D0001404,AF e CF,3.0
+KNSC11,0.028,,24E3191694,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.027,,24E1318751,AF e Subordinação,3.0
+KNSC11,0.027,,24J2539918,Aval,1.0
+KNSC11,0.021,,21E0407330,"AF, CF e FR",3.0
+KNSC11,0.021,,23L2415875,AF de Cotas e CF,2.0
+KNSC11,0.021,,24B1669810,"AF, CF, AF de Cotas e FR",3.0
+KNSC11,0.021,,20I0815543,"AF, CF, FR e Aval",3.0
+KNSC11,0.02,,21E0407810,CF e FR,1.0
+KNSC11,0.016,,19E0311712,"AF, CF e FR",3.0
+KNSC11,0.016,,21F0968392,"AF, CF e FR",3.0
+KNSC11,0.015,,22D1068881,"AF, CF, AF de Cotas e FR",3.0
+KNSC11,0.015,,20J0894746,"AF, CF e FR",3.0
+KNSC11,0.014,,21E0076526,AF e Subordinação,3.0
+KNSC11,0.014,,20K0571487,"AF, CF e FR",3.0
+KNSC11,0.013,,20F0689770,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNSC11,0.012,,21A0772858,AF e CF,3.0
+KNSC11,0.011,,24J3438785,"AF, AF de Cotas, CF e Fiança",3.0
+KNSC11,0.011,,24H2231336,"AF, CF e FR",3.0
+KNSC11,0.011,,23L1773235,"AF, AF de Cotas e CF",3.0
+KNSC11,0.01,,21D0543881,"AF, CF e Aval",3.0
+KNSC11,0.008,,21H0012919,"AF, CF e FR",3.0
+KNSC11,0.008,,24I2114588,"AF, CF e FR",3.0
+KNSC11,0.008,,20I0815541,"AF, CF, FR e Aval",3.0
+KNSC11,0.008,,21H0001405,CF,1.0
+KNSC11,0.007,,21F1035597,"AF, CF e Fiança",3.0
+KNSC11,0.007,,21G0186913,"AF, AF de Cotas e CF",3.0
+KNSC11,0.007,,24J2299666,AF e Subordinação,3.0
+KNSC11,0.007,,23L1438568,FR,0.0
+KNSC11,0.006,,21F1057167,AF e Subordinação,3.0
+KNSC11,0.006,,20L0483122,AF e Subordinação ,3.0
+KNSC11,0.005,,21D0543872,"AF, CF e Aval",3.0
+KNSC11,0.004,,21I0280212,AF e Subordinação,3.0
+KNSC11,0.004,,23G1987539,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNSC11,0.004,,20J0837185,AF e Subordinação ,3.0
+KNSC11,0.003,,21E0076615,AF e Subordinação,3.0
+KNSC11,0.003,,22G0282305,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.002,,22G0282285,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.002,,21D0544319,"AF, CF e Aval",3.0
+KNSC11,0.002,,21F1057194,AF e Subordinação,3.0
+KNSC11,0.001,,22G0282372,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.001,,20L0483126,AF e Subordinação ,3.0
+KNSC11,0.001,,21I0280476,AF e Subordinação,3.0
+KNSC11,0.068,,22D0630029,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.041,,22C1013173,"Aval, AF e CF",3.0
+KNSC11,0.039,,24B1669805,"AF, CF, AF de Cotas e FR",3.0
+KNSC11,0.026,,20J0812325,"AF,CF e FR",3.0
+KNSC11,0.023,,20J0812343,"AF,CF e FR",3.0
+KNSC11,0.016,,22E0640948,"AF, CF, Aval e FR",3.0
+KNSC11,0.012,,23F1240696,FR,0.0
+KNSC11,0.008,,22G0282370,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.008,,24E3617802,FR e Aval,1.0
+KNSC11,0.008,,22G0282332,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.007,,22G0282297,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.006,,24G2824961,FR,0.0
+KNSC11,0.006,,24G2819302,FR,0.0
+KNSC11,0.006,,22G0282284,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.006,,23I1740395,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.006,,23H1250138,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.006,,22F1195743,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.006,,22F1195716,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.005,,22G0282145,"AF, AF de Cotas, CF e FR",3.0
+KNSC11,0.005,,22G0081374,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.004,,21D0524654,"AF, CF, FR e Aval",3.0
+KNSC11,0.004,,23I1554281,FR,0.0
+KNSC11,0.004,,23B0808932,"AF, CF e Fiança",3.0
+KNSC11,0.004,,22I1289815,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.003,,20I0620356,AF de Cotas,2.0
+KNSC11,0.003,,23B0584796,FR,0.0
+KNSC11,0.003,,22I1289816,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.003,,23C1221667,"AF, CF, FR e Aval",3.0
+KNSC11,0.002,,23B0808931,"AF, CF e Fiança",3.0
+KNSC11,0.002,,23B0808933,"AF, CF e Fiança",3.0
+KNSC11,0.002,,23B0808928,"AF, CF e Fiança",3.0
+KNSC11,0.002,,22G0081402,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.002,,23B0808930,"AF, CF e Fiança",3.0
+KNSC11,0.002,,23B0808926,"AF, CF e Fiança",3.0
+KNSC11,0.001,,22G0082919,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.001,,22G0079365,"AF, AF de Cotas, CF e Aval",3.0
+KNSC11,0.0,,21D0524613,"AF, CF, FR e Aval",3.0
+KNSC11,0.001,,IDGR11,-,0.0
+KNSC11,0.002,,ERCR11,Imóveis no RJ,0.0
+BODB11,0.034,,CJEN13,"GARANTIAS Alienação Fiduciária das Ações da SPE; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas.",2.0
+BODB11,0.081,,RGRA11,"GARANTIAS Alienação Fiduciária das Ações da SPE; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas; e Garantia Corporativa dos Acionistas.",2.0
+BODB11,0.043,,HVSP11,"GARANTIAS Alienação Fiduciária das Ações das SPEs e da Emissora; Alienação Fiduciáriade Equipamentos da Emissora e/ou das SPEs; Cessão Fiduciária de Direitos Creditórios, Recebíveis e Contas Vinculadas; e Garantia Corporativa da Comerc Participações S.A.",2.0
+BODB11,0.017,,CPTM15,"GARANTIAS Cessão Fiduciária de Direitos Creditórios, Recebíveis e Conta Vinculada.",1.0
+BODB11,0.054,,RAHD11,GARANTIAS Fiança Bancária até Completion do Projeto; Fiança das SPEs; AlienaçãoFiduciária de Equipamentos; Alienação Fiduciária dos Recebíveis; Alienação Fiduciária deAções das SPEs; e Conta Reserva do Serviço da Dívida e Conta Reserva de O&M,3.0
+BODB11,0.022,,ENAT11,GARANTIAS Fiança Corporativa¹ e Corporate Guarantee² das controladas da emissora; Alienação Fiduciária das Ações das Fiadoras; Penhor dos Direitos Emergentes dasConcessões de Atlanta e Manati; Cessão de Direitos Creditórios e Contas Vinculadas.,3.0
+BODB11,0.006,,HARG11,"GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas; Garantia Corporativa da Ecorodovias.",2.0
+BODB11,0.008,,BRKP28,GARANTIAS QUIROGRAFÁRIA,0.0
+BODB11,0.077,,SGAB11,GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de ContasVinculadas; Garantia Corporativa da Servy Participações até realização docompartilhamento das Garantias com a CEF (Caixa Econômica Federal),2.0
+BODB11,0.09,,MEZP11,"GARANTIAS Alienação Fiduciária das ações da Emissora, Cessão Fiduciária de direitos daEmissora, Fiança Corporativa da Barolo Participações e da MEZ Construções atécompletion físico do projeto.",2.0
+BODB11,0.051,,ASER12,"GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas.",2.0
+BODB11,0.025,,CLTM14,"GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas.",2.0
+BODB11,0.018,,BION16,GARANTIAS Fiança da Central Bioernergética Enervale e Bevap Participações; CessãoFiduciária de Direitos Creditórios,1.0
+BODB11,0.003,,ENAT33,GARANTIAS Fiança Corporativa¹ e Corporate Guarantee² das controladas da emissora; Alienação Fiduciária das Ações das Fiadoras; Penhor dos Direitos Emergentes dasConcessões de Atlanta e Manati; Cessão de Direitos Creditórios e Contas Vinculadas.,3.0
+BODB11,0.071,,IRJS15,"GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas.",2.0
+BODB11,0.049,,CONX12,GARANTIAS Cessão Fiduciária de Recebíveis de montante mínimo mensal de R$ 10MM; eFiança das subsidiárias operacionais;,1.0
+BODB11,0.042,,TEPA12,GARANTIAS Cessão Fiduciária de Direitos Creditórios de contratos que representem nomínimo 15% do saldo devedor; (ii) Alienação Fiduciária dos equipamentos equivalentes a100% do saldo devedor; e Fiança Corporativa da holding e subsidiárias;,2.0
+BODB11,0.019,,ÓRIGO,"GARANTIAS Alienação Fiduciária das Ações das SPEs, Alienação Fiduciária dos Direitos deUso de Superfície, Alienação Fiduciária de Equipamentos, Cessão Fiduciária dos Recebíveise Garantia Corporativa da Ebes Sistemas de Energia S.A.",2.0
+BODB11,0.05,,ORIG21,"GARANTIAS CF Dividendos das subsidiárias (Origem Pilar, Origem Canoas, Alpha LNG) eDireitos Creditórios de Swap; AF das Ações e Equipamentos e CF dos Contratos deConcessão e Petróleo e Gás da Origem Alagoas (em condição suspensiva)",2.0
+BODB11,0.051,,ALMC12,GARANTIAS Fiança da Holding (Aluminum Investment S.A.),1.0
+BODB11,0.022,,CTTP11,"GARANTIAS Alienação Fiduciária das Ações da Emissora; Cessão Fiduciária de DireitosCreditórios, Recebíveis e Contas Vinculadas.",2.0
+BODB11,0.009,,SAPS11,"GARANTIAS Cessão Fiduciária de Direitos Creditórios e Recebíveis não imobiliários dosterminais Tietê, Jabaquara e Barra Funda; Cessão Fiduciária de Conta Vinculada; AlienaçãoFiduciária das Ações da Emissora; e Aval dos Acionistas",2.0
+KNUQ11,0.06609304986945228,,24G2824961,FR,1.0
+KNUQ11,0.06471247563957695,,24F1345887,CF e FR,1.0
+KNUQ11,0.05435417306245424,,23K2261339,"AF de Cotas, AF, CF e Aval",3.0
+KNUQ11,0.042467021582402134,,23L1438691,FR,1.0
+KNUQ11,0.04222123182857124,,24D0007010,"CF, FR e Aval",1.0
+KNUQ11,0.03892390986090362,,23J0019001,"FR, AF e Aval",2.0
+KNUQ11,0.037635759969148835,,23I1554281,FR,1.0
+KNUQ11,0.036981241883812584,,23I1554068,FR,1.0
+KNUQ11,0.035204446974282363,,24D3314714,"AF, AF de cotas e CF ",3.0
+KNUQ11,0.02652489506810894,,23H1744677,"AF, CF, AF de Cotas e Fiança",3.0
+KNUQ11,0.02600853949207388,,24I1966999,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.025918970963061505,,23G1696052,"AF, CF, Aval e",3.0
+KNUQ11,0.01943613138584145,,24E3617802,FR e Aval,1.0
+KNUQ11,0.019200672670912716,,24D3470150,"CF, FR e Aval",2.0
+KNUQ11,0.018702443923271077,,24J2302240,"AF, AF de
+Cotas, CF e Aval",3.0
+KNUQ11,0.01662598234980812,,23K2263743,"AF de Cotas, AF, CF e Aval",3.0
+KNUQ11,0.01613110711745083,,23I1698252,"AF de Cotas, CF, Hipoteca e Aval",2.0
+KNUQ11,0.015755330603519725,,23I1740443,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNUQ11,0.013976064562981606,,23I1740477,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNUQ11,0.013331901774245742,,24A2722073,"AF, AF de cotas e CF e Aval",3.0
+KNUQ11,0.013273558371020051,,23H1297146,CF,1.0
+KNUQ11,0.012695672732984371,,23L2755396,"AF, AF de cotas, CF e Aval",2.0
+KNUQ11,0.011644621022356319,,23H1297148,CF,1.0
+KNUQ11,0.011153519797906923,,22G0079318,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.011153519797906923,,22G0079354,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.009603731569715723,,23I1740417,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNUQ11,0.00896537298953115,,22G0082985,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.008561520836719778,,23L2859177,"AF, CF, AF de Cotas e Aval",3.0
+KNUQ11,0.00623423381035029,,24J2301950,"AF, AF de
+Cotas, CF e Aval",3.0
+KNUQ11,0.005437106423485402,,22G0082919,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.005214353474638016,,21C0663319,"AF, CF, FR e Aval",3.0
+KNUQ11,0.005185776135108467,,22G0082910,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.0051844838907460595,,22G0082657,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.0051844838907460595,,22G0082877,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.005049848216787328,,23K2261105,"AF de Cotas, AF, CF e Aval",2.0
+KNUQ11,0.0045086939952034165,,24A2477894,"AF, AF de cotas, CF e Aval",3.0
+KNUQ11,0.004481621479689124,,22G0082982,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.004480504707746542,,22G0082980,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.004480504707746542,,22G0082971,"AF, AF de Cotas, CF e Aval",3.0
+KNUQ11,0.004043256109846561,,22L1035737,"AF, CF, FR e Aval",3.0
+KNUQ11,0.003399186215232464,,23H1297145,CF,1.0
+KNUQ11,0.0030300865664883224,,24A2477852,"AF, AF de cotas, CF e Aval",3.0
+KNUQ11,0.0029069109194813513,,23H1297147,CF,1.0
+KNUQ11,0.0027838906820390726,,23K2262998,"AF de Cotas, AF, CF e Aval",3.0
+KNUQ11,0.0026139673674264565,,24D3470125,"CF, FR e Aval",1.0
+KNUQ11,0.001940145422089775,,23L2859178,"AF, CF, AF de Cotas e Aval",3.0
+KNUQ11,0.0014453178002321277,,23I1740478,"AF, AF de Cotas, CF, FR e Aval",3.0
+KNUQ11,1.6032334831209052e-05,,23H1297201,CF,1.0
+HABT11,0.05362212520358517,,23J2094862,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.050239348402343884,,24C1690313,"Cessão Fiduciária dos Recebíveis;
+Alienação Fiduciária das Quotas da desenvolvedora do projeto;
+Fiança e coobrigação dos sócios PJs das SPEs;
+Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.04150337872931676,,20L0871093,"- Cessão Fiduciária dos Recebíveis;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.035403350079175146,,24G1768866,CF dos recebíveis (1ª fase); • AF de quotas da SPE; • AF de Imóveis; • Coobrigação dos sócios Pessoa Física e/ou Jurídica; • Fundo de Obras; • Fundo de Reserva.,3.0
+HABT11,0.03215625200516187,,23G1149789,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.027242866481529036,,24D3462826,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.025458856389795604,,23G1149794,"Cessão Fiduciária dos Recebíveis;
+Alienação Fiduciária das Quotas da desenvolvedora do projeto;
+Fiança e coobrigação dos sócios PJs das SPEs;
+Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.024251350297455263,,21J0989932,"Cessão Fiduciária dos direitos creditórios de royalties das franquias;
+Cessão Fiduciária da conta vinculada dos recebíveis de cartões (oriundos das vendas realizadas nas lojas próprias da companhia);
+Alienação fiduciária de terreno em Gramado, RS; 
+Covenant de endividamento (Dívida Líquida/EBITDA < 5x);
+Fundo de Reserva de R$ 750 mil.",3.0
+HABT11,0.023823301404094808,,21B0566153,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária do imóvel do projeto e de outros 02 imóveis em Parnamirim – RN;
+- Fiança e coobrigação dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.023580019745029088,,19K1139240,"- Cessão Fiduciária de 100% dos recebíveis; 
+- Promessa de cessão fiduciária de 100% das vendas futuras;
+- Alienação Fiduciária de 100% das quotas da cedente;
+- Fiança e Coobrigação dos sócios pessoas físicas do Empreendimento;	
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.02268279455589546,,22A0423267,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.02131766974481781,,23B0790147,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Fiança e coobrigação dos sócios pessoa física;
+- Alienação Fiduciária de 100% das quotas da SPE;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.019056715581925798,,20H0050614,"Cessão Fiduciária dos direitos creditórios de royalties das franquias;
+Cessão Fiduciária da conta vinculada dos recebíveis de cartões (oriundos das vendas realizadas nas lojas próprias da companhia);
+Alienação fiduciária de terreno em Gramado, RS; 
+Covenant de endividamento (Dívida Líquida/EBITDA < 5x);
+Fundo de Reserva de R$ 750 mil.",3.0
+HABT11,0.01663707722247438,,22B0653652,"- Cessão Fiduciária dos Direitos Creditórios decorrentes dos Contratos de Locação firmados com Fleury e Raia Drogasil;
+- Alienação Fiduciária das Quotas das SPEs desenvolvedoras dos projetos;
+- Aval da Voltxs Energia S.A.; 
+- Fundo de Juros, no valor de R$ 340 mil;
+- Fundo de Obras;
+- Fundo de Reserva no valor de R$ 190 mil.",2.0
+HABT11,0.016347606424465644,,21I0802801,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária do imóvel do projeto e de outros 02 imóveis em Parnamirim – RN;
+- Fiança e coobrigação dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.01558249901908414,,24D3410758,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.014517443251644066,,21I0600458,"- Hipoteca do terreno;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;		
+- Alienação Fiduciária de 100% das quotas da cedente;
+- Aval dos sócios pessoas físicas e/ou jurídicas;
+- Fundo de Obra, de 110% do valor remanescente;
+- Fundo de Reserva, no valor de R$ 500 mil.",2.0
+HABT11,0.013591247489959655,,24C1998253,"- Cessão Fiduciária de 100% dos Recebíveis;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;		
+- Alienação Fiduciária das quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoas físicas e/ou jurídicas;
+- Fundo de Obra, de 110% do valor remanescente;
+- Fundo de Reserva, no valor de 3 PMTs;
+- Fundo de despesa no valor de R$ 135 mil.	",2.0
+HABT11,0.012679719360381255,,20H0620360,"- Cessão Fiduciária dos Recebíveis;
+- Coobrigação da cedente;
+- Aval dos sócios pessoa física e jurídica;
+- Fundo de Reserva (03 PMTs).",1.0
+HABT11,0.012608206163271149,,21H1035398,"- Alienação Fiduciária das unidades residenciais prontas com Habite-se (atuais e futuras) dos empreendimentos;
+- Fundo de Reserva no valor de três parcelas de Juros, e seis meses de despesas com Condomínio e IPTU das Unidades em Estoque (R$ 4 MM).",2.0
+HABT11,0.011477722840793049,,21E0379796,"- Cessão Fiduciária de 100% dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas; futuras; 
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Reserva (03 PMTs).
+",2.0
+HABT11,0.011203829944342568,,20H0051749,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária de vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs);
+- Direito a troca de empresa de comercialização e obras.",2.0
+HABT11,0.011042128072527156,,21J1001700,"Cessão Fiduciária dos direitos creditórios de royalties das franquias;
+Cessão Fiduciária da conta vinculada dos recebíveis de cartões (oriundos das vendas realizadas nas lojas próprias da companhia);
+Alienação fiduciária de terreno em Gramado, RS; 
+Covenant de endividamento (Dívida Líquida/EBITDA < 5x);
+Fundo de Reserva de R$ 750 mil.",3.0
+HABT11,0.010945235024239549,,21J1001701,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.010760295830696721,,21G0733018,"- Cessão Fiduciária de 100% dos recebíveis;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;	
+ - Alienação Fiduciária de quotas da cedente;
+- Fiança e Coobrigação dos sócios pessoas físicas e/ou jurídicas do Empreendimento;
+- Fundo de Obra, de 110% do valor remanescente das obras do Empreendimento;
+- Fundo de Reserva, no valor de R$ 500 mil.",2.0
+HABT11,0.01051212600326353,,24F1185811,• Cessão fiduciária dos recebíveis e vendas futuras; • Alienação Fiduciária de 100% das quotas da sociedade; • Alienação Fiduciária de Imóveis; • Fundo de Reserva e Despesas.,3.0
+HABT11,0.00978238262124576,,24F2316395,• CF dos recebíveis e vendas futuras; • AF de 100% das quotas da SPE; • AF de imóveis; • Aval da TMI e Sócios PF; • Fundo de Reserva; • Fundo de Obras.,3.0
+HABT11,0.00977601988253877,,24F2316349,• CF dos recebíveis e vendas futuras; • AF de 100% das quotas da SPE; • AF de imóveis; • Aval da TMI e Sócios PF; • Fundo de Reserva; • Fundo de Obras.,3.0
+HABT11,0.009695386163093183,,20H0051754,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária de vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs);
+- Direito a troca de empresa de comercialização e obras.",2.0
+HABT11,0.009566512029264307,,21J0300224,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Alienação Fiduciária de duas das matrículas do Imóvel, no valor de R$ 15,2MM;
+- Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras de 105% do valor do retrofit;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.009547256356261424,,21B0564516,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.009358028211282825,,21L0967451,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Fiança e coobrigação dos sócios pessoa física;
+- Alienação Fiduciária de 100% das quotas da SPE;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.008942560096812638,,21J0649503,"- Cessão Fiduciária dos Recebíveis;
+- Coobrigação da cedente;
+- Aval dos sócios pessoa física e jurídica;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.008898574911531624,,21L0967725,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Fiança e coobrigação dos sócios pessoa física;
+- Alienação Fiduciária de 100% das quotas da SPE;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.008706153486040565,,21F1037235,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Alienação Fiduciária de duas das matrículas do Imóvel, no valor de R$ 15,2MM;
+- Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras de 105% do valor do retrofit;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.00856509716896782,,22B0652228,"- Alienação Fiduciária das unidades residenciais prontas com Habite-se (atuais e futuras) dos empreendimentos;
+- Fundo de Reserva no valor de três parcelas de Juros, e seis meses de despesas com Condomínio e IPTU das Unidades em Estoque (R$ 4 MM).",3.0
+HABT11,0.008396632989665122,,20L0871063,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",3.0
+HABT11,0.007747753246196264,,21A0608474,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.007413682151454413,,21K0522538,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.007011556040138248,,22B0653348,"- Cessão Fiduciária dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Aval dos sócios Pessoa Física;
+- Fundo de Despesas (R$ 250 mil);
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.006677132372496022,,22B0653645,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas
+futuras;
+- Alienações Fiduciárias de Participações;
+- Fiança e coobrigação dos sócios pessoa física;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.006375738115110253,,20H0050651,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária de vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs);
+- Direito a troca de empresa de comercialização e obras.",2.0
+HABT11,0.00625287041025381,,22I0149798,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (03 PMTs);
+- Fundo de Despesas, no valor de R$ 50 mil.",2.0
+HABT11,0.005933778052038986,,22B0653493,"- Cessão de créditos e estoque/vendas do projeto;
+- AF de quotas da SPE;
+- Fiança;
+- Fundo de Obras;
+- Fundo de Reserva.",2.0
+HABT11,0.0058110269156489225,,21A0607979,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.005719173974368736,,22B0653675,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas
+futuras;
+- Alienações Fiduciárias de Participações;
+- Fiança e coobrigação dos sócios pessoa física;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.005644527649396452,,22B0653681,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das quotas das SPEs;
+- Aval dos sócios;
+- Fundo de Reserva e Despesas.",2.0
+HABT11,0.005570272186899818,,21L0967727,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Obrigação de aporte de cotistas;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.005464603572782431,,22B0653656,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.00532794486078943,,22D1286980,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária dos imóveis do empreendimento;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.0053167734392921134,,22I0149823,"- Cessão Fiduciária dos Recebíveis;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.005150944182218957,,22I0149814,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (03 PMTs);
+- Fundo de Despesas, no valor de R$ 50 mil.",2.0
+HABT11,0.004978289039576893,,21D0864263,"-Cessão Fiduciária dos Recebíveis, receitas de condomínio e pool do Ipioca Beach Residence;
+Cessão Fiduciária das receitas de gestão dos hotéis Acqua Inn e Acqua Suítes;
+-Estoque de apartamentos do Ipioca Beach Life;
+-Promessa de Cessão Fiduciária das vendas futuras;
+-Alienação Fiduciária das Quotas da cedente;
+-Fiança e coobrigação dos sócios pessoa jurídica;
+-Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.004974950450710138,,21G0733026,"- Cessão Fiduciária de 100% dos recebíveis;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;	
+ - Alienação Fiduciária de quotas da cedente;
+- Fiança e Coobrigação dos sócios pessoas físicas e/ou jurídicas do Empreendimento;
+- Fundo de Obra, de 110% do valor remanescente das obras do Empreendimento;
+- Fundo de Reserva, no valor de R$ 500 mil.",2.0
+HABT11,0.004916456487701328,,22I0149811,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (03 PMTs);
+- Fundo de Despesas, no valor de R$ 50 mil.",2.0
+HABT11,0.004886039461893237,,21L0967718,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Fiança e coobrigação dos sócios pessoa física;
+- Alienação Fiduciária de 100% das quotas da SPE;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.004859602138541874,,21I0940475,"- Hipoteca do terreno;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;		
+- Alienação Fiduciária de 100% das quotas da cedente;
+- Aval dos sócios pessoas físicas e/ou jurídicas;
+- Fundo de Obra, de 110% do valor remanescente;
+- Fundo de Reserva, no valor de R$ 500 mil.",3.0
+HABT11,0.0047902267090132854,,21F1151103,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.00473436852459185,,22B0653556,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.004705073898451586,,21L0967724,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Fiança e coobrigação dos sócios pessoa física;
+- Alienação Fiduciária de 100% das quotas da SPE;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0046088959089554135,,22I0149863,CF dos recebíveis; • AF das quotas da SPE; • Fiança e coobrigação dos sócios pessoa jurídica; • Fundo de Obras; • Fundo de Reserva; • Fundo de Despesas.,2.0
+HABT11,0.004600770656074761,,22B0653678,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.004584721731757545,,21D0864264,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.004506705015902578,,20L0871069,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.004456453938200533,,23H1074707,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária de quotas;
+- Fiança e coobrigação dos sócios pessoa física;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.004270715827674129,,20L0871068,"- Cessão Fiduciária dos recebíveis e promessa de cessão fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Alienação Fiduciária de Imóvel;
+- Aval e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obras;
+-Fundo de Reserva (3% do saldo devedor).",3.0
+HABT11,0.004244847463277662,,22B0084502,"- Fiança;
+- Alienação Fiduciária de Imóveis;
+- Alienação Fiduciária de Quotas;
+- Cessão Fiduciária decorrente de vendas,
+passadas ou futuras, dos imóveis cedidos",3.0
+HABT11,0.004194860533042066,,21I0802805,"- Cessão Fiduciária de 100% dos Recebíveis;
+- Promessa de Cessão Fiduciária de 100% das vendas futuras;		
+- Alienação Fiduciária das quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoas físicas e/ou jurídicas;
+- Fundo de Obra, de 110% do valor remanescente;
+- Fundo de Reserva, no valor de 3 PMTs;
+- Fundo de despesa no valor de R$ 135 mil.	",2.0
+HABT11,0.00414037162587192,,21A0608487,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.0038734882258950345,,20L0871064,"- Cessão Fiduciária de dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas 
+futuras;
+- Alienação Fiduciária das Quotas da 
+desenvolvedora do projeto;
+- Fiança e coobrigação dos sócios;
+- Fundo de Reserva (03 PMTs) e Despesas.",2.0
+HABT11,0.0035359368410151307,,20L0871066,"- Cessão Fiduciária dos recebíveis e promessa de cessão fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Alienação Fiduciária de Imóvel;
+- Aval e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obras;
+-Fundo de Reserva (3% do saldo devedor).",3.0
+HABT11,0.0034711073740734764,,22D1286982,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária dos imóveis do empreendimento;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.003333960356463405,,22D1286981,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária dos imóveis do empreendimento;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.0032563871950411194,,21C0710827,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (03 PMTs);
+- Fundo de Despesas, no valor de R$ 50 mil.",2.0
+HABT11,0.003202255570739434,,21D0864252,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.0031664747865631274,,21D0864254,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.0031060578460877213,,22D1286983,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária dos imóveis do empreendimento;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.002896821626923195,,21L0729728,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",2.0
+HABT11,0.00289027879356868,,21B0591503,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.002876134681551884,,18E0844461,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0028616029767893495,,21B0000204,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Promessa de Cessão Fiduciária das vendas futuras;		
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.002854492949096082,,22D1286984,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária dos imóveis do empreendimento;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.002801485008998976,,21C0710497,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das quotas da SPE;
+- Fiança e Coobrigação dos sócios PF e PJ do empreendimento;
+- Fundo de Reserva (06 PMTs);
+- Fundo de Obras.",2.0
+HABT11,0.0026123205199527076,,18E0852030,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0024705994226734843,,21A0850298,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Promessa de Cessão Fiduciária das vendas futuras;		
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.002469336515445279,,21A0775722,"- Cessão fiduciária dos recebíveis e vendas futuras;
+- Alienação Fiduciária de 100% das quotas ou ações da(s) sociedade(s) detentora(s) do(s) Empreendimento(s);
+- Fundo de Reserva (02 PMTs);
+- Fiança dos sócios da Tomadora.",2.0
+HABT11,0.00245635745231147,,21A0850574,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Promessa de Cessão Fiduciária das vendas futuras;		
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0023514436397740856,,21D0864265,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.0023387526113002478,,21A0607963,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.0023319383773879325,,21A0869388,"- Cessão Fiduciária dos Recebíveis;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.002319291049113868,,21J0650047,"- Cessão Fiduciária do Contrato de Locação;
+- Alienação Fiduciária do Imóvel;
+- Fundo de despesa no valor de R$ 22 mil;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.00231071282186436,,21L0050460,"- Cessão fiduciária dos recebíveis e vendas futuras;
+- Alienação Fiduciária das quotas das sociedades detentoras dos Empreendimentos;
+- Fundo de Reserva dinâmico no valor de 01 PMT;
+- Fiança e coobrigação dos sócios pessoa jurídica;",2.0
+HABT11,0.002257388301846148,,21H0284007,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0022533408043942235,,21J0302094,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária de vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa física e jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs);
+- Direito a troca de empresa de comercialização e obras.",2.0
+HABT11,0.002247882924514975,,21A0859444,"- Cessão Fiduciária dos Recebíveis;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0022365697109205294,,21A0826515,"- Cessão Fiduciária dos Recebíveis;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.002151826226428388,,21J0300975,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Alienação Fiduciária de duas das matrículas do Imóvel, no valor de R$ 15,2MM;
+- Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras de 105% do valor do retrofit;
+- Fundo de Reserva (03 PMTs).",3.0
+HABT11,0.0020957768276827038,,21D0864253,"- Cessão Fiduciária dos recebíveis e vendas futuras;
+- Alienação fiduciária de 100% das quotas da SPE;
+- Alienação fiduciária do imóvel onde está sendo desenvolvido o empreendimento (avaliado em R$1,98MM), a ser convertida em AF das unidades em estoque após a emissão do Habite-se;
+- Aval da TMI e dos Sócios da empresa (pessoa física); 
+- Fundo de Reserva (03 PMTs);
+- Fundo de Obras.",3.0
+HABT11,0.002013122921181237,,21A0775566,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Promessa de Cessão Fiduciária das vendas futuras;		
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0018819332736198025,,19D1329258,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das quotas da SPE;
+- Fiança e Coobrigação dos sócios PF e PJ do empreendimento;
+- Fundo de Reserva (06 PMTs);
+- Fundo de Obras.",2.0
+HABT11,0.0016344503878958237,,21L0729731,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",3.0
+HABT11,0.00152913932912439,,22I0149864,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (03 PMTs);
+- Fundo de Despesas, no valor de R$ 50 mil.",2.0
+HABT11,0.0014455038678685592,,18E0852434,"- Cessão Fiduciária dos Recebíveis da cedente;
+- Promessa de Cessão Fiduciária das vendas futuras da cedente;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.0013937472352435426,,21A0607952,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,0.0010575408641429634,,21K0522795,"- Cessão Fiduciária dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Aval dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras (104,45%);
+- Fundo de Despesas (R$ 300 mil);
+- Fundo de Reserva (R$ 500 mil).",2.0
+HABT11,0.0008085620380589677,,21A0850275,"- Cessão Fiduciária de 100% dos Recebíveis e das vendas futuras;
+- Promessa de Cessão Fiduciária das vendas futuras;		
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.00080374410400901,,21A0850418,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das quotas da SPE;
+- Fiança e Coobrigação dos sócios PF e PJ do empreendimento;
+- Fundo de Reserva;
+- Fundo de Obras.",2.0
+HABT11,0.0006593294758890884,,21A0775592,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e Coobrigação dos sócios pessoa física;
+- Fundo de Obra;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.000533137766199305,,21A0850462,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Fiança e coobrigação dos sócios pessoa jurídica;
+- Fundo de Reserva (03 PMTs).",2.0
+HABT11,0.00026301048274703884,,21A0850592,"- Cessão Fiduciária de 100% dos recebíveis;
+- Alienação Fiduciária de 100% das quotas da cedente;
+- Fiança e Coobrigação dos sócios pessoas físicas do Empreendimento;
+- Fundo de Reserva (02 PMTs).",2.0
+HABT11,0.00020164545034838957,,21A0607856,"- Cessão de 100% dos direitos creditórios de unidades já vendidas;
+- Promessa de cessão fiduciária de 100% dos direitos creditórios de vendas futuras;
+- Alienação Fiduciária de quotas da SPE;
+- AF do Imóvel sobre o qual será desenvolvido o Empreendimento; 
+- Coobrigação da Cedente e Aval dos sócios da SPE; 
+- Fundo de Despesas no valor de R$100 mil;
+- Fundo de Obras.",3.0
+HABT11,1.4272630567497368e-10,,18A0893102,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",3.0
+HABT11,1.297511869772488e-10,,18A0893173,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",3.0
+HABT11,6.48755934886244e-11,,18H0134529,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",3.0
+HABT11,0.0,,18H0135364,"- Cessão Fiduciária dos Recebíveis;
+- Promessa de Cessão Fiduciária das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Fiança dos sócios PF e PJ do empreendimento;
+- Fundo de Obras;
+- Fundo de Reserva (R$ 1,2 MM);
+- Fundo de despesas, no valor de R$300 mil;
+- Alienação Fiduciária do imóvel do empreendimento.",3.0
+HABT11,0.0,,18H0134527,"- Cessão Fiduciária dos Recebíveis e das vendas futuras;
+- Alienação Fiduciária das Quotas da SPE;
+- Coobrigação da cedente;
+- Aval dos sócios Pessoa Física e/ou jurídica;
+- Fundo de Obras (104,45%);
+- Fundo de Despesas (R$ 300 mil);
+- Fundo de Reserva (R$ 500 mil).",2.0
