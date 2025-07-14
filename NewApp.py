@@ -17,18 +17,7 @@ class_map = (
     .set_index(['Código','Subclasse'])['Nota']
     .to_dict()
 )
-'''
 
-'''
-#type_list = set(df_class['Tipos de Garantia'].map(str.strip).dropna().unique())
-#type_to_code = df_class.set_index('Tipos de Garantia')['Código'].to_dict()
-#code_set = set(df_class['Código'].map(str.strip).dropna().unique())
-#code_list = sorted(code_set, key=len, reverse=True)
-#subclass_set = set(df_class['Subclasse'].map(str.strip).dropna().unique())
-
-'''
-
-'''
 
 
 
