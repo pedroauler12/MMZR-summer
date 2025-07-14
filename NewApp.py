@@ -5,7 +5,7 @@ from codigo_limpo import df_tidy_simp
 
 df_dash = pd.read_excel('Estudo_de_Garantias_v3.xlsx', sheet_name='Dashboard', header=1)
 df_class = pd.read_excel('Estudo_de_Garantias_v3.xlsx', sheet_name='Classificação', header =1)
-df_simp = df_tidy_simp.copy
+df_simp = df_tidy_simp.copy()
 
 
 df_simp[['Código', 'Subclasse']] =df_simp['Garantia'].str.split(' ',n=1, expand=True)
@@ -88,6 +88,24 @@ def calculo_score(norm , nota_calculada):
     soma = produto.sum()
     return soma /0.03
 
+# —————————————— Modo DEBUG por fundo ——————————————
+fundo_teste = 'MXRF11'   # ou MXRF11, RBRY11, etc.
 
-score = calculo_score(df_simp['Norm.'], df_simp['Nota_calculada'])
-print(f"Score calculado: {score:.2f}")
+# filtra só as linhas desse fundo
+df_debug = df_simp[df_simp['Fundo'] == fundo_teste]
+
+# mostra os 10 primeiros ativos com suas colunas relevantes
+df_debug[['Ativo', 'Garantia', 'Norm.', 'Nota_calculada', 'Nota']].head(30)
+# ———————————————————————————————————————————————
+
+
+
+scores = (
+    df_simp
+    .groupby('Fundo', sort=False)[['Norm.', 'Nota_calculada']]
+    .apply(lambda g: calculo_score(g['Norm.'], g['Nota_calculada']))
+)
+
+# e aí imprimo cada um
+for fundo, val in scores.items():
+    print(f"{fundo}: {val:.2f}")
