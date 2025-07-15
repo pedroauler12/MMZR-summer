@@ -5,6 +5,6 @@ indices
 *.pyo
 *.pyd
 __pycache__/
-*.db
-*.sqlite3
 relatorios 
+data
+Estudo_de_Garantias_v3.xlsx

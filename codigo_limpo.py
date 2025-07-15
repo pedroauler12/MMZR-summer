@@ -40,6 +40,7 @@ def _load_simplificado():
 
     # exporta para CSV
     df.to_csv('df_tidy_simp.csv', index=False)
+    df.to_excel('df_tidy_simp.xlsx')
 
     return df
 
