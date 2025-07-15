@@ -1,14 +1,4 @@
-# %% [markdown]
-# ### Mapear_Codigos_Simples.ipynb
-# 
-# Pequeno notebook que:
-# 1. Lê a aba **Classificação** do `Estudo_de_Garantias_v3.xlsx` para gerar os dicionários oficiais.
-# 2. Carrega o **garantias_limpas.csv** (gerado pelo `limpeza.ipynb`).
-# 3. Converte cada tipo de garantia textual em seu **código oficial** (p.ex. “alienacao fiduciaria” → “AF”).
-# 4. Mantém intactos códigos que já vieram prontos (AF, CF…) e todas as subclasses (imóvel, terreno, etc.).
-# 5. Grava o resultado como **garantias_cod.csv** e mostra uma amostra.
-# 
-# O notebook tem menos de 10 células e não altera o pipeline original – apenas faz o _mapping_ final.
+
 
 # %%
 # Imports
@@ -16,11 +6,12 @@ import pandas as pd
 import re
 from unidecode import unidecode
 from pathlib import Path
+from limpeza import normalizar
 
-# Caminhos de entrada/saída (ajuste aqui se estiver em outra pasta)
-ARQ_CLASS   = Path('Estudo_de_Garantias_v3.xlsx')
-ARQ_LIMPAS  = Path('garantias_limpas.csv')
-ARQ_SAIDA   = Path('garantias_cod.csv')
+#
+ARQ_CLASS   = Path('data/Estudo_de_Garantias_v3.xlsx')
+ARQ_LIMPAS  = Path('data/garantias_limpas.csv')
+ARQ_SAIDA   = Path('data/garantias_cod.csv')
 
 # %%
 # Função utilitária
@@ -51,9 +42,7 @@ for _, row in df_class[['Tipos de Garantia', 'Código']].dropna().iterrows():
 
 print(f"Encontrados {len(ALIAS2CODE)} aliases → código e {len(SUBCLASSES_OFICIAIS)} subclasses oficiais.")
 
-# %% [markdown]
-# **Dica rápida** – se precisar acrescentar exceções manuais (abreviações, erros comuns, etc.)
-# basta editar abaixo:
+
 
 # %%
 # Ajustes manuais opcionais (exemplos)
@@ -99,7 +88,7 @@ print(df.head(25))
 # %% [markdown]
 # 
 # ---
-# Notebook simples e direto. Se tudo estiver conforme, basta integrá‑lo no `NewApp.ipynb`
+# Notebook simples e direto. Se tudoestiver conforme, basta integrá‑lo no `NewApp.ipynb`
 # (leia `garantias_cod.csv` em vez de `garantias_limpas.csv`).
 
 # %%

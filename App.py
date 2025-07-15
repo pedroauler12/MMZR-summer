@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 import re 
-from codigo_limpo import df_tidy_simp
+from organizacao_fundos import df_tidy_simp
 
-df_dash = pd.read_excel('Estudo_de_Garantias_v3.xlsx', sheet_name='Dashboard', header=1)
-df_class = pd.read_excel('Estudo_de_Garantias_v3.xlsx', sheet_name='Classificação', header =1)
+df_dash = pd.read_excel('data/Estudo_de_Garantias_v3.xlsx', sheet_name='Dashboard', header=1)
+df_class = pd.read_excel('data/Estudo_de_Garantias_v3.xlsx', sheet_name='Classificação', header =1)
 df_simp = df_tidy_simp.copy()
 
 
@@ -91,8 +91,8 @@ df_debug[['Ativo', 'Garantia', 'Norm.', 'Nota_calculada', 'Nota']].head(30)
 
 scores = (
     df_simp
-    .groupby('Fundo', sort=False)[['Norm.', 'Nota_calculada']]
-    .apply(lambda g: calculo_score(g['Norm.'], g['Nota_calculada']))
+    .groupby('Fundo', sort=False)[['Norm.', 'Nota']]
+    .apply(lambda g: calculo_score(g['Norm.'], g['Nota']))
 )
 
 # e aí imprimo cada um
