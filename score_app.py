@@ -1,29 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-score_app.py  (NO-HUMAN-NOTE VERSION)
-=====================================
-Calcula *somente* as Notas automáticas (via Classificação oficial) e
-o Score de Garantia por Fundo.
 
-Entradas (default, alteráveis via CLI):
-  --fin     data/df_tidy_simp_MASTER.csv       # financeiro normalizado (Fundo, Ativo, %PL, Norm., Garantia, [Nota ignorada])
-  --tok     data/garantias_cod_MASTER.csv      # tokens codificados (Fundo, Ativo, G1..Gn)
-  --classif data/Estudo_de_Garantias_v3.xlsx   # tabela Classificação (Código, Subclasse, Nota)
-
-Saída:
-  --saida-xlsx score_garantia_MASTER.xlsx      # XLSX com abas:
-      * Scores          → Score por Fundo
-      * Debug_Linhas    → Cada linha com tokens + Nota_calculada
-      * Stats           → Diagnósticos (linhas sem codes, sem subs, NaNs, soma Norm.)
-
-Uso típico:
-    python score_app.py \
-      --fin data/df_tidy_simp_MASTER.csv \
-      --tok data/garantias_cod_MASTER.csv \
-      --classif data/Estudo_de_Garantias_v3.xlsx \
-      --saida-xlsx score_garantia_MASTER.xlsx
-"""
 
 import argparse
 import pandas as pd
@@ -31,6 +8,8 @@ import numpy as np
 import re
 from pathlib import Path
 from unidecode import unidecode
+__all__ = ["run_score"]
+
 
 # ------------------------------------------------------------------
 # Normalização de strings
@@ -332,7 +311,7 @@ def main():
     ap = argparse.ArgumentParser(description="Calcula Score Garantia (Nota humana ignorada).")
     ap.add_argument("--fin",        default="data/df_tidy_simp_MASTER.csv", help="CSV financeiro MASTER.")
     ap.add_argument("--tok",        default="data/garantias_cod_MASTER.csv", help="CSV tokens codificados MASTER.")
-    ap.add_argument("--classif",    default="data/Estudo_de_Garantias_v3.xlsx", help="Planilha Classificação.")
+    ap.add_argument("--classif",    default="Estudo_de_Garantias_v3.xlsx", help="Planilha Classificação.")
     ap.add_argument("--saida-xlsx", default="score_garantia_MASTER.xlsx", help="Arquivo XLSX de saída.")
     ap.add_argument("--fundo",      default=None, help="Filtrar um único fundo (debug).")
     ap.add_argument("--drop-na-norm", action="store_true",

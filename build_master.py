@@ -1,17 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-Combina dataset base (df_tidy_simp.csv) com 1+ arquivos de staging gerados
-por ingest_new_fundo.py → produz df_tidy_simp_MASTER.csv sem destruir o original.
 
-Uso:
-    python build_master.py \
-      --base data/df_tidy_simp.csv \
-      --staging input_dados/KNIP11_staging.csv input_dados/CLIN11_staging.csv \
-      --out data/df_tidy_simp_MASTER.csv \
-      --replace-existing   # opcional: sobrescreve fundos que já existiam no base
-
-"""
 
 import pandas as pd
 import numpy as np
