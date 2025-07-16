@@ -16,12 +16,6 @@ ARQ_SAIDA   = Path('data/garantias_cod.csv')
 # %%
 # Função utilitária
 
-def normalizar(txt: str) -> str:
-    if not isinstance(txt, str):
-        return txt
-    txt = unidecode(txt).lower()
-    txt = re.sub(r'\s+', ' ', txt).strip()
-    return txt
 
 # %%
 # 1) Constrói os dicionários oficiais a partir da planilha de classificação
