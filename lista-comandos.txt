@@ -1,0 +1,59 @@
+python ingest_fundo.py \
+  input_dados/PlanilhadeFundamentos_KIP.xlsx \
+  KNIP11 \
+  "Carteira de Ativos" \
+  10 \
+  --outdir input_dados
+
+
+python append_to_master.py \
+  --new-csv input_dados/KNIP11_staging.csv \
+  --master data/df_tidy_simp_MASTER.csv \
+  --saida data/df_tidy_simp_MASTER.csv \
+  --replace-existing
+
+
+
+python limpeza.py \
+  --fin data/df_tidy_simp_MASTER.csv \
+  --saida-csv data/garantias_limpas_MASTER.csv \
+  --saida-xlsx data/garantias_limpas_MASTER.xlsx
+
+
+python mapear_codigo.py \
+  --limpas data/garantias_limpas_MASTER.csv \
+  --classif data/Estudo_de_Garantias_v3.xlsx \
+  --saida-csv data/garantias_cod_MASTER.csv
+
+
+
+  ver fundos atuais
+  python score_app.py \
+  --fin data/df_tidy_simp_MASTER.csv \
+  --tok data/garantias_cod_MASTER.csv \
+  --classif data/Estudo_de_Garantias_v3.xlsx \
+  --scores-only \
+  --saida-xlsx ''    \
+  --scores-out-xlsx score_ALL_placar.xlsx \
+  --scores-out-stats
+
+
+
+python score_app.py \                                                                                                                               ─╯
+  --fin data/df_tidy_simp_MASTER.csv \
+  --tok data/garantias_cod_MASTER.csv \
+  --classif data/Estudo_de_Garantias_v3.xlsx \
+  --fundo KNIP11 \
+  --saida-xlsx score_KNIP11_debug.xlsx \
+  --scores-out-xlsx score_KNIP11_placar.xlsx \
+  --scores-out-stats \
+  --scores-master-xlsx score_garantia_MASTER.xlsx \
+  --update-master-scores
+
+  python score_app.py \                                                                                                                               ─╯
+  --fin data/df_tidy_simp_MASTER.csv \
+  --tok data/garantias_cod_MASTER.csv \
+  --classif data/Estudo_de_Garantias_v3.xlsx \
+  --scores-out-xlsx score_ALL_placar.xlsx \
+  --scores-out-stats \
+  --scores-only
