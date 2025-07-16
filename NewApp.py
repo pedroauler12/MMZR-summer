@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[17]:
+# In[118]:
 
 
 import pandas as pd
@@ -10,7 +10,7 @@ import re
 from organizacao_fundos import df_tidy_simp
 
 
-# In[18]:
+# In[119]:
 
 
 from unidecode import unidecode                   # só para fallback eventual
@@ -18,7 +18,7 @@ from organizacao_fundos import df_tidy_simp            # seu DataFrame financeir
 from mapear_codigo import ALIAS2CODE , CODIGOS_OFICIAIS, SUBCLASSES_OFICIAIS , normalizar
 
 
-# In[ ]:
+# In[120]:
 
 
 df_dash  = pd.read_excel("data/Estudo_de_Garantias_v3.xlsx",
@@ -29,19 +29,44 @@ df_class = pd.read_excel("data/Estudo_de_Garantias_v3.xlsx",
 
 # garantias já limpas/tokenizadas (colunas G1 … Gn)
 df_tokens = pd.read_csv("data/garantias_cod.csv")
+df_fin   = df_tidy_simp.copy()  
 
 
-# In[5]:
+# In[121]:
 
 
-df_fin   = df_tidy_simp.copy()   # mantém Norm., %PL etc.
-df_all   = (
-    df_fin.merge(df_tokens, on=["Fundo", "Ativo"], how="left")
-           .reset_index(drop=True)
+df_fin    = df_tidy_simp.reset_index(drop=False)   # preserva índice original
+df_tokens = df_tokens.reset_index(drop=False)
+
+
+# In[122]:
+
+
+df_all = (
+    df_fin.merge(
+        df_tokens.drop(columns=['Fundo', 'Ativo']),   # evita colunas duplicadas
+        on='index',          # chave única garantida
+        how='left',
+        validate='1:1'
+    )
+    .drop(columns=['index']) # não precisamos mais dela
 )
 
 
-# In[6]:
+# In[ ]:
+
+
+
+
+
+# In[123]:
+
+
+df_all_teste = df_all[df_all['Fundo'] == 'RURA11']  # substitua 'Fundo XYZ' pelo nome do fundo desejado
+df_all_teste.head(60)  # exibe as primeiras linhas do DataFrame filtrado
+
+
+# In[124]:
 
 
 df_class['Subclasse_norm'] = df_class['Subclasse'].apply(normalizar)
@@ -52,13 +77,20 @@ class_map = (df_class
              .to_dict())
 
 
-# In[7]:
+# In[125]:
 
 
 SUB_NORM2CANON = {normalizar(s): s for s in SUBCLASSES_OFICIAIS}
 
 
-# In[8]:
+# In[126]:
+
+
+SUB2CODE = {normalizar(row['Subclasse']): row['Código'].upper()
+            for _, row in df_class.dropna(subset=['Subclasse']).iterrows()}
+
+
+# In[127]:
 
 
 def classifica_token(tok: str):
@@ -88,7 +120,7 @@ def classifica_token(tok: str):
     return {}
 
 
-# In[9]:
+# In[128]:
 
 
 def tokens_da_linha(row) -> tuple[list[str], list[str]]:
@@ -103,10 +135,16 @@ def tokens_da_linha(row) -> tuple[list[str], list[str]]:
             codes.append(info["code"])
         if "sub"  in info and info["sub"]  not in subs:
             subs.append(info["sub"])
+            
+    # ★ INFERE código se subclasse tem mapeamento único
+    for s in subs:
+        cod_padrao = SUB2CODE.get(normalizar(s))
+        if cod_padrao and cod_padrao not in codes:
+            codes.append(cod_padrao)
     return codes, subs
 
 
-# In[10]:
+# In[129]:
 
 
 def nota_para_linha(codes: list[str], subs: list[str]) -> float:
@@ -131,7 +169,7 @@ def nota_para_linha(codes: list[str], subs: list[str]) -> float:
     return np.nan
 
 
-# In[11]:
+# In[130]:
 
 
 def calculo_score(norm , nota_calculada):
@@ -140,7 +178,7 @@ def calculo_score(norm , nota_calculada):
     return soma /0.03
 
 
-# In[12]:
+# In[131]:
 
 
 codes_and_subs = df_all.filter(like="G").columns      # salva a lista de colunas G*
@@ -155,7 +193,7 @@ df_all["Nota_calculada"] = df_all.apply(
 )
 
 
-# In[13]:
+# In[132]:
 
 
 scores = (
@@ -164,7 +202,7 @@ scores = (
 )
 
 
-# In[14]:
+# In[133]:
 
 
 print("─── Scores por Fundo ───")
@@ -172,7 +210,7 @@ for fundo, val in scores.items():
     print(f"{fundo}: {val:.2f}")
 
 
-# In[15]:
+# In[134]:
 
 
 scores_sorted = scores.sort_values(ascending=False).reset_index()
@@ -186,10 +224,10 @@ df_out.columns = ["Ativo", "Score Garantia", "Ativo", "Score Garantia"]
 df_out.to_excel("score_garantia_dashboard.xlsx", index=False)
 
 print("Planilha salva como  score_garantia_dashboard.xlsx")
+display(df_out.head(15))
 
 
-
-# In[ ]:
+# In[135]:
 
 
 fundo_teste = "MXRF11"      # altere à vontade
@@ -204,21 +242,37 @@ display_cols = (
 df_debug[display_cols].head(30)
 
 
-# In[ ]:
+# In[136]:
 
 
-# Garante que as colunas são do tipo numérico (caso tenham vindo como string)
 df_all["Nota"] = pd.to_numeric(df_all["Nota"], errors="coerce")
 df_all["Nota_calculada"] = pd.to_numeric(df_all["Nota_calculada"], errors="coerce")
 
-# Filtra apenas as linhas onde as notas são diferentes (e ambas não são NaN)
-diferencas = df_all[
-    (df_all["Nota"].notna()) & 
-    (df_all["Nota_calculada"].notna()) & 
+# Filtra linhas em que Nota_calculada é diferente da Nota
+df_diferencas = df_all[
+    (df_all["Nota"].notna()) &
+    (df_all["Nota_calculada"].notna()) &
     (df_all["Nota"] != df_all["Nota_calculada"])
 ]
 
-# Visualiza ou exporta
-print(diferencas[["Fundo", "Ativo", "Nota", "Nota_calculada", "codes", "subs"]].head(20))
-diferencas.to_excel("notas_diferentes.xlsx", index=False)
+# Seleciona apenas as colunas desejadas
+colunas_desejadas = ["Fundo", "Ativo", "Garantia", "Nota", "Nota_calculada", "codes", "subs"]
+df_filtrado = df_diferencas[colunas_desejadas]
+
+# Exporta para Excel
+df_filtrado.to_excel("notas_diferentes_limpo.xlsx", index=False)
+
+print("Relatório salvo em 'notas_diferentes_limpo.xlsx'")
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 

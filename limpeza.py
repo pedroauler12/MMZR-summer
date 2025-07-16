@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[22]:
 
 
 import pandas as pd
@@ -11,35 +11,13 @@ import re
 from unidecode import unidecode
 
 
-# In[7]:
+# In[23]:
 
 
 TOKEN_SPLIT_RE = re.compile(r'^(?P<cod>[A-Za-z]{1,4})\s+(?P<rest>.+)$')
 
 
-# In[8]:
-
-
-ALIAS2CODE = {
-    "alienacao fiduciaria": "AF",
-    "cessao fiduciaria":    "CF",
-    "fundo reserva":        "FR",
-    "cash sweep":           "CS",
-    "penhor":                "P",
-    "hipoteca":              "H",
-    "guarantee letter":      "GL",
-    "fiança":                "F",
-    "aval":                  "A",
-    "seguro":                "S",
-    "recompra":              "R",
-    "sobrecolateral":        "SC",
-    "subordinação":          "SUB",
-    "coobrigação":           "COO"
-    
-}
-
-
-# In[9]:
+# In[24]:
 
 
 dfClass =pd.read_excel('data/Estudo_de_Garantias_v3.xlsx', sheet_name='Classificação', header =1)
@@ -49,21 +27,21 @@ df = df_original.copy()
 df.head(5)
 
 
-# In[10]:
+# In[25]:
 
 
 # df com 
 df = df[['Fundo' , 'Ativo', 'Garantia']]
 
 
-# In[11]:
+# In[26]:
 
 
 regex = r'\s*(?:\+|-|,|;|\bou\b|\be\b|\bem\b|\bde\b|\bda\b|\bdos\b|\bdo\b|\be/?ou\b|\(\w+\)|•)\s*'
 df['Garantia'] = df['Garantia'].str.replace(r'^\s*(?:-+|•+|GARANTIAS)\s*', '', regex=True)
 
 
-# In[12]:
+# In[27]:
 
 
 def limpar_celula(x):
@@ -75,7 +53,7 @@ def limpar_celula(x):
     return x.strip()
 
 
-# In[13]:
+# In[28]:
 
 
 df_split = df['Garantia'].str.split(regex, expand=True)
@@ -91,7 +69,7 @@ df_split = pd.concat([df[['Fundo', 'Ativo']], df_split], axis=1)
 df_split.iloc[1:10].dropna(axis=1, how='all')
 
 
-# In[14]:
+# In[29]:
 
 
 tipos_garantia = set(dfClass['Tipos de Garantia'].dropna().str.strip().unique())
@@ -99,7 +77,7 @@ codigo = set(dfClass['Código'].dropna().str.strip().unique())
 subclasses = set(dfClass['Subclasse'].dropna().str.strip().unique())
 
 
-# In[15]:
+# In[30]:
 
 
 def normalizar(s: str) -> str:
@@ -110,7 +88,7 @@ def normalizar(s: str) -> str:
     return s
 
 
-# In[16]:
+# In[31]:
 
 
 tipos_norm = {normalizar(t) for t in tipos_garantia}
@@ -119,7 +97,7 @@ subs_norm = {normalizar(s) for s in subclasses}
 prefix_tipo = {t.split(' ', 1)[0]: t for t in tipos_norm}
 
 
-# In[ ]:
+# In[32]:
 
 
 alias = {
@@ -139,6 +117,10 @@ alias = {
     'sócios pessoa física': 'sócios',
     'sócios pessoa jurídica': 'sócios',
     'sócios pf': 'sócios',
+    'spes'       : 'spe',
+    'terrenos'   : 'terreno',
+    'graos'      : 'grãos',
+    'grãos'      : 'grãos',
 
     # ─── Tipos de Garantia ───────────────────────────────────
     'cash'         : 'cash sweep',
@@ -148,7 +130,7 @@ alias = {
 }
 
 
-# In[27]:
+# In[33]:
 
 
 def keep_token(token):
@@ -192,12 +174,16 @@ def keep_token(token):
         rest = normalizar(m.group('rest'))
 
         # 6-A) tenta casar o resto completo antes de quebrar
-        if rest in subs_norm:
-            out.append(rest)
+        alias_rest = alias.get(rest, rest)
+        if alias_rest in subs_norm:
+            out.append(alias_rest)
         else:
             for piece in rest.split():
-                if piece in subs_norm:
-                    out.append(piece)
+                # aplica alias por palavra
+                piece_norm = alias.get(piece, piece)
+                if piece_norm in subs_norm:
+                    out.append(piece_norm)
+
 
         # 6-B) código sempre vai pro output se for reconhecido
         if cod in codigos:
@@ -222,7 +208,7 @@ def keep_token(token):
     return []
 
 
-# In[19]:
+# In[34]:
 
 
 def filtra_linha(row):
@@ -232,7 +218,7 @@ def filtra_linha(row):
     return pd.Series(kept)
 
 
-# In[20]:
+# In[35]:
 
 
 # 1) pega apenas as colunas Garantia_*
@@ -248,7 +234,7 @@ tmp.columns = [f'G{i+1}' for i in range(tmp.shape[1])]
 df_clean = pd.concat([df_split[['Fundo', 'Ativo']], tmp], axis=1)
 
 
-# In[21]:
+# In[36]:
 
 
 ruido = (df_split.filter(like='Garantia_')
@@ -258,7 +244,7 @@ ruido = (df_split.filter(like='Garantia_')
 print(f"Ruído remanescente: {ruido.mean():.2%}")
 
 
-# In[22]:
+# In[37]:
 
 
 ruido = (gar_cols.stack()
@@ -266,13 +252,13 @@ ruido = (gar_cols.stack()
                    .loc[lambda s: s.apply(lambda x: keep_token(x) == [])])
 
 
-# In[23]:
+# In[38]:
 
 
 df_clean = pd.concat([df_split[['Fundo', 'Ativo']], tmp], axis=1)
 
 
-# In[24]:
+# In[39]:
 
 
 df_clean.to_csv('data/garantias_limpas.csv', index=False)     # arquivo pronto
@@ -280,14 +266,14 @@ df_clean.to_excel('data/garantias_limpas.xlsx', index=False)
 df_clean.head(50)
 
 
-# In[25]:
+# In[40]:
 
 
 top30 = ruido.value_counts().head(60)
 print(top30)
 
 
-# In[26]:
+# In[41]:
 
 
 # df_clean já contém G1, G2, …;  conjuntos válidos = tipos_norm, codigos, subs_norm
@@ -307,6 +293,12 @@ tokens_suspeitos = [
 
 print(f"{len(tokens_suspeitos)} tokens ainda fora da classificação:")
 print(sorted(tokens_suspeitos)[:50])        # mostra só os 50 primeiros
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

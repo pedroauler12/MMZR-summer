@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
 
 
 # %%
@@ -13,8 +17,8 @@ ARQ_CLASS   = Path('data/Estudo_de_Garantias_v3.xlsx')
 ARQ_LIMPAS  = Path('data/garantias_limpas.csv')
 ARQ_SAIDA   = Path('data/garantias_cod.csv')
 
-# %%
-# Função utilitária
+
+# In[2]:
 
 
 # %%
@@ -38,6 +42,10 @@ print(f"Encontrados {len(ALIAS2CODE)} aliases → código e {len(SUBCLASSES_OFI
 
 
 
+
+# In[3]:
+
+
 # %%
 # Ajustes manuais opcionais (exemplos)
 ADICIONAIS = {
@@ -47,8 +55,9 @@ ADICIONAIS = {
 }
 ALIAS2CODE.update(ADICIONAIS)
 
-# %% [markdown]
-# ## 2) Carrega `garantias_limpas.csv` e aplica o mapeamento
+
+# In[4]:
+
 
 # %%
 print("→ Lendo", ARQ_LIMPAS)
@@ -68,8 +77,9 @@ def traduz_token(tok):
 for col in token_cols:
     df[col] = df[col].apply(traduz_token)
 
-# %% [markdown]
-# ## 3) Salva & inspeção rápida
+
+# In[5]:
+
 
 # %%
 print("→ Salvando resultado em", ARQ_SAIDA)
@@ -79,10 +89,9 @@ df.to_csv(ARQ_SAIDA, index=False)
 print("\nAmostra das primeiras 25 linhas depois do mapeamento:")
 print(df.head(25))
 
-# %% [markdown]
-# 
-# ---
-# Notebook simples e direto. Se tudoestiver conforme, basta integrá‑lo no `NewApp.ipynb`
-# (leia `garantias_cod.csv` em vez de `garantias_limpas.csv`).
 
-# %%
+# In[ ]:
+
+
+
+
