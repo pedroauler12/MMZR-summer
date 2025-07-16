@@ -21,7 +21,7 @@ def normalizar(s: str) -> str:
     return s
 
 def mapear_tokens(
-    path_classif: Path = Path("Estudo_de_Garantias_v3.xlsx"),
+    path_classif: Path = Path("data/Estudo_de_Garantias_v3.xlsx"),
     path_tokens: Path = Path("data/garantias_limpas.csv"),
     path_saida: Path = Path("data/garantias_cod.csv"),
     verbose: bool = True
@@ -94,7 +94,7 @@ def main():
                     help="CSV de tokens limpos.")
     ap.add_argument("--saida", default="data/garantias_cod.csv",
                     help="CSV de saída com códigos mapeados.")
-    ap.add_argument("--classif", default="Estudo_de_Garantias_v3.xlsx",
+    ap.add_argument("--classif", default="data/Estudo_de_Garantias_v3.xlsx",
                     help="Planilha de Classificação oficial.")
     args = ap.parse_args()
 
@@ -107,3 +107,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import pandas as pd
+path = "data/Estudo_de_Garantias_v3.xlsx"
+xls = pd.ExcelFile(path)
+print("Arquivo lido:", path)
+print("Abas encontradas:", xls.sheet_names)
+df = xls.parse(sheet_name='Classificação', header=1)

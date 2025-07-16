@@ -29,17 +29,95 @@ def limpar_celula(x):
     x = re.sub(r'\s*\d+$', '', x)
     return x.strip()
 
-def load_classificacao(path_class: Path):
-    dfClass = pd.read_excel(path_class, sheet_name='Classificação', header=1)
-    tipos_garantia = set(dfClass['Tipos de Garantia'].dropna().str.strip().unique())
-    codigo         = set(dfClass['Código'].dropna().str.strip().unique())
-    subclasses     = set(dfClass['Subclasse'].dropna().str.strip().unique())
+def load_classificacao(path_class):
+    """
+    Lê a tabela de classificação a partir de um Excel que pode ter:
+      - Nome de aba variando (Classificação / Classificacao / Sheet1 / etc.)
+      - Linha de cabeçalho deslocada (formatação, título, etc.)
 
-    tipos_norm  = {normalizar(t) for t in tipos_garantia}
-    codigos     = {c.upper() for c in codigo}
-    subs_norm   = {normalizar(s) for s in subclasses}
+    Estratégia:
+      1. Abrimos o arquivo com pd.ExcelFile.
+      2. Para cada aba, carregamos sem cabeçalho (header=None).
+      3. Normalizamos strings e procuramos uma linha que contenha >=2
+         nomes esperados: {tipos de garantia, código, subclasse, nota}.
+      4. Quando acharmos, relermos a aba com header=linha_detectada.
+      5. Retornamos dfClass e os sets normalizados necessários para a limpeza.
+
+    Se nada encontrado, levantamos erro amigável.
+    """
+
+    import pandas as pd
+    import re
+    from unidecode import unidecode
+
+    def _norm(s):
+        return re.sub(r"\s+", " ", unidecode(str(s)).strip().lower())
+
+    EXPECTED = {
+        "tipos de garantia": "Tipos de Garantia",
+        "codigo": "Código",
+        "código": "Código",
+        "subclasse": "Subclasse",
+        "nota": "Nota",
+    }
+
+    xl = pd.ExcelFile(path_class)
+    chosen_sheet = None
+    chosen_header = None
+
+    for sh in xl.sheet_names:
+        tmp = xl.parse(sh, header=None, dtype=str)
+        # varre linhas procurando cabeçalho
+        for i, row in tmp.iterrows():
+            # normaliza todas as células da linha
+            normed = [_norm(v) for v in row.tolist()]
+            # quantas colunas "esperadas" aparecem nessa linha?
+            hits = sum(1 for v in normed if v in EXPECTED)
+            if hits >= 2:  # achamos linha candidata
+                chosen_sheet = sh
+                chosen_header = i
+                break
+        if chosen_sheet is not None:
+            break
+
+    if chosen_sheet is None:
+        raise ValueError(
+            f"Não encontrei nenhuma aba em '{path_class}' com cabeçalho compatível "
+            "(esperado algo contendo 'Tipos de Garantia', 'Código', 'Subclasse', 'Nota')."
+        )
+
+    if chosen_sheet not in ("Classificação", "Classificacao"):
+        print(f"[WARN] Tabela Classificação detectada na aba '{chosen_sheet}' (header linha {chosen_header}).")
+
+    # Lê novamente a aba correta com o header detectado
+    dfClass = xl.parse(chosen_sheet, header=chosen_header)
+
+    # --- Derivados para o resto da limpeza ---
+    tipos_garantia = set(dfClass['Tipos de Garantia'].dropna().astype(str).str.strip().unique()) \
+        if 'Tipos de Garantia' in dfClass.columns else set()
+
+    codigo = set(dfClass['Código'].dropna().astype(str).str.strip().unique()) \
+        if 'Código' in dfClass.columns else set()
+
+    subclasses = set(dfClass['Subclasse'].dropna().astype(str).str.strip().unique()) \
+        if 'Subclasse' in dfClass.columns else set()
+
+    # normalizador local (ou importe o global, se preferir)
+    def normalizar(s: str) -> str:
+        if not isinstance(s, str):
+            return s
+        s = unidecode(s).lower()
+        s = re.sub(r'\s+', ' ', s).strip()
+        return s
+
+    tipos_norm = {normalizar(t) for t in tipos_garantia}
+    codigos    = {c.upper() for c in codigo}
+    subs_norm  = {normalizar(s) for s in subclasses}
     prefix_tipo = {t.split(' ', 1)[0]: t for t in tipos_norm}
+
     return dfClass, tipos_norm, codigos, subs_norm, prefix_tipo
+
+
 
 ALIAS = {
     'imoveis'        : 'imovel',
@@ -119,7 +197,7 @@ def make_keep_token(tipos_norm, codigos, subs_norm, prefix_tipo, alias=ALIAS):
 def run_limpeza(path_in: Path,
                 path_out_csv: Path,
                 path_out_xlsx: Path,
-                path_class: Path = Path('Estudo_de_Garantias_v3.xlsx')):
+                path_class: Path = Path('data/Estudo_de_Garantias_v3.xlsx')):
     """
     Limpa e tokeniza as garantias do arquivo de entrada.
     Salva em CSV e XLSX, retorna o DataFrame limpo.
@@ -182,7 +260,7 @@ def main():
                     help="Saída CSV tokens.")
     ap.add_argument("--out-xlsx",default="data/garantias_limpas.xlsx",
                     help="Saída XLSX tokens.")
-    ap.add_argument("--classif", default="Estudo_de_Garantias_v3.xlsx",
+    ap.add_argument("--classif", default="data/Estudo_de_Garantias_v3.xlsx",
                     help="Planilha de Classificação.")
     args = ap.parse_args()
 
@@ -190,3 +268,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+import pandas as pd
+path = "data/Estudo_de_Garantias_v3.xlsx"
+xls = pd.ExcelFile(path)
+print("Arquivo lido:", path)
+print("Abas encontradas:", xls.sheet_names)
+df = xls.parse(sheet_name='Classificação', header=1)

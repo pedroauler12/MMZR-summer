@@ -311,7 +311,7 @@ def main():
     ap = argparse.ArgumentParser(description="Calcula Score Garantia (Nota humana ignorada).")
     ap.add_argument("--fin",        default="data/df_tidy_simp_MASTER.csv", help="CSV financeiro MASTER.")
     ap.add_argument("--tok",        default="data/garantias_cod_MASTER.csv", help="CSV tokens codificados MASTER.")
-    ap.add_argument("--classif",    default="Estudo_de_Garantias_v3.xlsx", help="Planilha Classificação.")
+    ap.add_argument("--classif",    default="data/Estudo_de_Garantias_v3.xlsx", help="Planilha Classificação.")
     ap.add_argument("--saida-xlsx", default="score_garantia_MASTER.xlsx", help="Arquivo XLSX de saída.")
     ap.add_argument("--fundo",      default=None, help="Filtrar um único fundo (debug).")
     ap.add_argument("--drop-na-norm", action="store_true",
@@ -330,5 +330,14 @@ def main():
         drop_na_score=args.drop_na_score,
     )
 
+
+
 if __name__ == "__main__":
     main()
+
+import pandas as pd
+path = "data/Estudo_de_Garantias_v3.xlsx"
+xls = pd.ExcelFile(path)
+print("Arquivo lido:", path)
+print("Abas encontradas:", xls.sheet_names)
+df = xls.parse(sheet_name='Classificação', header=1)

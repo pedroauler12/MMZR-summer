@@ -10,7 +10,7 @@ import pandas as pd
 import re
 from unidecode import unidecode
 from pathlib import Path
-from limpeza import normalizar
+from antigos.limpeza import normalizar
 
 #
 ARQ_CLASS   = Path('data/Estudo_de_Garantias_v3.xlsx')

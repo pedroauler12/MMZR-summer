@@ -19,7 +19,7 @@ import score_app as score_mod
 # Caminhos padrão do projeto (NÃO MUDEI sua estrutura)
 # ------------------------------------------------------------------
 PATH_MASTER_FIN   = Path("data/df_tidy_simp_MASTER.csv")
-PATH_CLASSIF_XLS  = Path("Estudo_de_Garantias_v3.xlsx")
+PATH_CLASSIF_XLS  = Path("data/Estudo_de_Garantias_v3.xlsx")
 PATH_LIMP_CSV     = Path("data/garantias_limpas_MASTER.csv")
 PATH_LIMP_XLSX    = Path("data/garantias_limpas_MASTER.xlsx")
 PATH_COD_CSV      = Path("data/garantias_cod_MASTER.csv")
@@ -32,7 +32,13 @@ PATH_SCORE_XLSX   = Path("score_garantia_MASTER.xlsx")  # você pediu que ficass
 def _limpeza(caminho_master, caminho_classif, saida_csv, saida_xlsx):
     """
     Chama a função de limpeza no módulo limpeza_cli.
-    Usa POSITIONAL args porque o módulo não aceita nomes.
+
+    *** ATENÇÃO ***
+    A assinatura real de limpeza_cli.run_limpeza é:
+        run_limpeza(path_master, out_csv, out_xlsx, path_class)
+    (classificação é o 4º argumento!)
+
+    Por isso, aqui reordenamos os args antes de chamar.
     """
     cm = str(caminho_master)
     cl = str(caminho_classif)
@@ -40,11 +46,13 @@ def _limpeza(caminho_master, caminho_classif, saida_csv, saida_xlsx):
     ox = str(saida_xlsx)
 
     if hasattr(limpeza_mod, "rodar_limpeza"):
-        return limpeza_mod.rodar_limpeza(cm, cl, oc, ox)
+        # supondo mesma assinatura
+        return limpeza_mod.rodar_limpeza(cm, oc, ox, cl)
     elif hasattr(limpeza_mod, "run_limpeza"):
-        return limpeza_mod.run_limpeza(cm, cl, oc, ox)
+        return limpeza_mod.run_limpeza(cm, oc, ox, cl)
     else:
         raise AttributeError("limpeza_cli não tem rodar_limpeza() nem run_limpeza()!")
+
 
 
 
@@ -207,3 +215,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
