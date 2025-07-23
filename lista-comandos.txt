@@ -39,21 +39,18 @@ python mapear_codigo.py \
 
 
 
-python score_app.py \                                                                                                                               ─╯
+ver o debugg dos fundos 
+python score_app.py \
   --fin data/df_tidy_simp_MASTER.csv \
   --tok data/garantias_cod_MASTER.csv \
   --classif data/Estudo_de_Garantias_v3.xlsx \
-  --fundo KNIP11 \
-  --saida-xlsx score_KNIP11_debug.xlsx \
-  --scores-out-xlsx score_KNIP11_placar.xlsx \
-  --scores-out-stats \
-  --scores-master-xlsx score_garantia_MASTER.xlsx \
-  --update-master-scores
+  --saida-xlsx score_garantia_MASTER_debug.xlsx
 
-  python score_app.py \                                                                                                                               ─╯
+
+ver o debugg de apenas um fundo 
+python score_app.py \
   --fin data/df_tidy_simp_MASTER.csv \
   --tok data/garantias_cod_MASTER.csv \
   --classif data/Estudo_de_Garantias_v3.xlsx \
-  --scores-out-xlsx score_ALL_placar.xlsx \
-  --scores-out-stats \
-  --scores-only
+  --saida-xlsx score_debug_MXRF11.xlsx \
+  --fundo MXRF11
