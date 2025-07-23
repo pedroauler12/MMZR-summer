@@ -95,6 +95,8 @@ alias = {
     'terrenos':   'terreno',
     'spes':       'spe',
     'sobrecolateral': 'sobrecolateral',
+    'cotas':      'cotas de fundo (fip, fii etc.) e ações',
+    'quotas':     'cotas de fundo (fip, fii etc.) e ações',
 
     # colapsar sócios variantes
     'sócios pessoa física': 'sócios',
