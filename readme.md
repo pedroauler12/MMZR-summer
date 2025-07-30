@@ -110,14 +110,20 @@ python mapear_codigo.py --limpas data/garantias_limpas_MASTER.csv --classif data
 python score_app.py --fin data/df_tidy_simp_MASTER.csv --tok data/garantias_cod_MASTER.csv --classif data/Estudo_de_Garantias_v3.xlsx --scores-only --saida-xlsx '' --scores-out-xlsx score_ALL_placar.xlsx --scores-out-stats
 ```
 
-### 6.6 Calcular o score (detalhado)
+### 6.6 Calcular o debug de todos os fundos(detalhado)
 
 ```bash
 python score_app.py --fin data/df_tidy_simp_MASTER.csv --tok data/garantias_cod_MASTER.csv --classif data/Estudo_de_Garantias_v3.xlsx --saida-xlsx score_garantia_MASTER_debug.xlsx
 ```
+### 6.7 Calcular o debug apenas de um fundo
 
+python score_app.py \
+  --fin data/df_tidy_simp_MASTER.csv \
+  --tok data/garantias_cod_MASTER.csv \
+  --classif data/Estudo_de_Garantias_v3.xlsx \
+  --saida-xlsx score_debug_MXRF11.xlsx \
+  --fundo (NOME DO FUNDO) \
 ---
-
 ✅ **Pronto!** O ambiente estará configurado e os scripts podem ser executados normalmente no Windows.
 
 ---
