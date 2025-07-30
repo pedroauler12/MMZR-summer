@@ -7,9 +7,9 @@ import numpy as np
 from pathlib import Path
 from rapidfuzz import process, fuzz
 
-# --------------------------------------------------------------
+
 # Parse CLI
-# --------------------------------------------------------------
+
 ap = argparse.ArgumentParser(description="Ingestão de um único fundo e geração de CSV staging p/ MASTER.")
 ap.add_argument("arquivo", help="Arquivo Excel de entrada (caminho).")
 ap.add_argument("nome_fundo", help="Ticker do fundo (ex.: KNIP11).")
@@ -25,15 +25,15 @@ HDR = args.header
 OUTDIR = Path(args.outdir)
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
-# --------------------------------------------------------------
+
 # Ler Excel
-# --------------------------------------------------------------
+
 df = pd.read_excel(ARQ_XLS, sheet_name=SHEET, header=HDR)
 df = df.dropna(axis=1, how='all')
 
-# --------------------------------------------------------------
+
 # Função de fuzzy‑match de colunas
-# --------------------------------------------------------------
+
 def fuzzy_match_column(df, candidatos, threshold=80):
     for candidato in candidatos:
         match, score, _ = process.extractOne(
@@ -43,13 +43,13 @@ def fuzzy_match_column(df, candidatos, threshold=80):
             return match
     return None
 
-# --------------------------------------------------------------
+
 # Detectar coluna de percentual
-# --------------------------------------------------------------
+
 possiveis_colunas_perc = [
     '% DA CARTEIRA', '% DO PL', '%DO PL', '%PL',
     '% DO PATRIMÔNIO', '% DO PATRIMONIO',
-    '%/PL', 'PCT PL', 'PCT/PL'
+    '%/PL', 'PCT PL', 'PCT/PL', '% do patrimonio'
 ]
 col_perc = fuzzy_match_column(df, possiveis_colunas_perc)
 if col_perc is None:
@@ -62,9 +62,9 @@ if not col_perc:
     raise ValueError("Nenhuma coluna de percentual encontrada no arquivo!")
 df = df.rename(columns={col_perc: '% DA CARTEIRA'})
 
-# --------------------------------------------------------------
+
 # Detectar colunas principais: ATIVO, CÓDIGO DO ATIVO, GARANTIAS
-# --------------------------------------------------------------
+
 possiveis_ativo = ['ATIVO', 'TIPO ATIVO', 'TIPO', 'TIPO LASTRO', 'CLASSE', 'ESPECIE']
 possiveis_cod = [
     'CÓDIGO DO ATIVO', 'CODIGO DO ATIVO', 'CÓDIGO', 'CODIGO',
@@ -105,22 +105,22 @@ df = df.rename(columns={
 needed = ['ATIVO', 'CÓDIGO DO ATIVO', '% DA CARTEIRA', 'GARANTIAS']
 df = df[needed]
 
-# --------------------------------------------------------------
+
 # Remover rodapé: descarta tudo a partir da 1ª linha sem código
-# --------------------------------------------------------------
+
 mask_sem_codigo = df['CÓDIGO DO ATIVO'].isna()
 if mask_sem_codigo.any():
     cutoff = mask_sem_codigo.idxmax()
     df = df.loc[:cutoff-1].copy()
 
-# --------------------------------------------------------------
+
 # Filtrar apenas CRIs
-# --------------------------------------------------------------
+
 df = df[df['ATIVO'].astype(str).str.upper().str.contains('CRI', na=False)].copy()
 
-# --------------------------------------------------------------
+
 # Converter % DA CARTEIRA para float
-# --------------------------------------------------------------
+
 def _to_float(x):
     if pd.isna(x):
         return np.nan
@@ -136,17 +136,17 @@ def _to_float(x):
 
 df['% DA CARTEIRA'] = df['% DA CARTEIRA'].apply(_to_float)
 
-# --------------------------------------------------------------
+
 # Normalizar pesos, adicionar nome do fundo e reordenar
-# --------------------------------------------------------------
+
 total = df['% DA CARTEIRA'].sum(skipna=True)
 df['Norm.'] = df['% DA CARTEIRA'] / total if total and not np.isnan(total) else np.nan
 df['NOME DO FUNDO'] = FUNDO
 df = df[['NOME DO FUNDO', 'ATIVO', 'CÓDIGO DO ATIVO', '% DA CARTEIRA', 'Norm.', 'GARANTIAS']]
 
-# --------------------------------------------------------------
+
 # Salvar
-# --------------------------------------------------------------
+
 arq_raw = OUTDIR / f"{FUNDO}_ingest_raw.xlsx"
 arq_csv = OUTDIR / f"{FUNDO}_staging.csv"
 try:
@@ -159,9 +159,9 @@ with pd.ExcelWriter(arq_raw, engine=eng) as xlw:
     df.to_excel(xlw, sheet_name="raw", index=False)
 df.to_csv(arq_csv, index=False)
 
-# --------------------------------------------------------------
+
 # Relatório curto
-# --------------------------------------------------------------
+
 print("\n=== INGESTÃO CONCLUÍDA ===")
 print(f"Arquivo origem: {ARQ_XLS}")
 print(f"Fundo:          {FUNDO}")

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-fundo_remover = "XPCI11"  # ou qualquer outro nome do fundo que você acabou de adicionar
+fundo_remover = "HGCR11"  # ou qualquer outro nome do fundo que você acabou de adicionar
 
 # Carrega os arquivos MASTER
 df_tidy = pd.read_csv("data/df_tidy_simp_MASTER.csv")

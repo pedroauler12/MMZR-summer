@@ -6,9 +6,10 @@ indices
 *.pyd
 __pycache__/
 relatorios 
-data
-Estudo_de_Garantias_v3.xlsx
+
 notas_diferentes_limpo.xlsx
-input_dados
 score_ALL_placar.xlsx
 *.xlsx 
+*.csv
+*.json
+*.log
