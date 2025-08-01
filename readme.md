@@ -15,6 +15,9 @@ Este guia foi feito para uso no **Windows**, considerando que a máquina não po
 
 ---
 
+## Baixar o arquivo ZIP 
+
+
 ## 📌 1. Instalar o Python
 
 1. Acesse: [https://www.python.org/downloads/](https://www.python.org/downloads/)
